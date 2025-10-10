@@ -6,7 +6,7 @@
 - [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
 - [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
 
-## Testnet - October 10, 2025
+## Testnet Issuance - October 10, 2025
 
 | Entity                    | Details                                                                     |
 | :------------------------ | :-------------------------------------------------------------------------- |
@@ -19,7 +19,7 @@
 | **DRW Strategies (DRWS)** | **URL:** https://drws-ui.validator.test.global.canton.network.cumberland.io |
 |                           | **Party ID:** `Cumberland-DRWS-1::...`                                      |
 
-## Step 1: Onboarding roles in Registry
+### Step 1: Onboarding roles in Registry
 
 | Steps                                                                                                                                                                                       | DA   | BR   | SGF  | SGPM | DRWS |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--- | :--- | :--- | :--- | :--- |
@@ -40,7 +40,7 @@
 | 1.13 SGF creates Registrar Configuration                                                                                                                                                    |      |      |      |      |      |
 | 1.14 Enforcement Service for Issuer and Investors                                                                                                                                           |      |      |      |      |      |
 
-## Step 2: Token Issuance and Transfer
+### Step 2: Token Issuance and Transfer
 
 | Steps                                                              | DA   | BR   | SGF  | SGPM | DRWS |
 | :----------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
