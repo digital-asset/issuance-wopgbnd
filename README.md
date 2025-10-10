@@ -1,5 +1,7 @@
 # issuance-wopgbnd
 
+[Documentation](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/introduction.html)
+
 ## Testnet - October 10, 2025
 
 | Entity                    | Details                                                                     |
