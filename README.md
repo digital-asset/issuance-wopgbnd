@@ -1,6 +1,10 @@
 # issuance-wopgbnd
 
-[Documentation](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/introduction.html)
+## Documentation
+
+- [Issuing Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/introduction.html)
+- [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
+- [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
 
 ## Testnet - October 10, 2025
 
