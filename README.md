@@ -1,4 +1,12 @@
-# issuance-wopgbnd
+# issuance-wopgbnd <!-- omit in toc -->
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Documentation](#documentation)
+- [Testnet Issuance - October 10, 2025](#testnet-issuance---october-10-2025)
+  - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
+  - [Step 2: Token Issuance and Transfer](#step-2-token-issuance-and-transfer)
 
 ## Documentation
 
