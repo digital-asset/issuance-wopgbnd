@@ -15,24 +15,24 @@
 
 ## Step 1: Onboarding roles in Registry
 
-| Steps                                                      | DA   | BR   | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| 1.1 Onboarding credential services for all entities        |      |      |      |      |      |
-| 1.2 Provider credential for BR                             |      |      |      |      |      |
-| 1.3 Onboard BR as a Provider                               |      |      |      |      |      |
-| 1.4 Onboarding requirements for registrars and holders     |      |      |      |      |      |
-| 1.5 BR offers Registrar credential for SGF                 |      |      |      |      |      |
-| 1.6 SGF accepts credential offer                           |      |      |      |      |      |
-| 1.7 BR offers Holder credential for SGPM and DRW           |      |      |      |      |      |
-| 1.8 SGF requests onboarding as a Registrar in the Registry |      |      |      |      |      |
-| 1.8 SGPM accepts credential offer                          |      |      |      |      |      |
-| 1.9 BR accepts onboarding request from SGF                 |      |      |      |      |      |
-| 1.9 DRW accepts credential offer                           |      |      |      |      |      |
-| 1.10 SGPM requests onboarding as a Holder in the Registry  |      |      |      |      |      |
-| 1.11 DRW requests onboarding as a Holder in the Registry   |      |      |      |      |      |
-| 1.12 BR accepts onboarding requests from SGPM and DRW      |      |      |      |      |      |
-| 1.13 SGF creates Registrar Configuration                   |      |      |      |      |      |
-| 1.14 Enforcement Service for Issuer and Investors          |      |      |      |      |      |
+| Steps                                                                                                                                                                                       | DA   | BR   | SGF  | SGPM | DRWS |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--- | :--- | :--- | :--- | :--- |
+| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities) |      |      |      |      |      |
+| 1.2 Provider credential for BR                                                                                                                                                              |      |      |      |      |      |
+| 1.3 Onboard BR as a Provider                                                                                                                                                                |      |      |      |      |      |
+| 1.4 Onboarding requirements for registrars and holders                                                                                                                                      |      |      |      |      |      |
+| 1.5 BR offers Registrar credential for SGF                                                                                                                                                  |      |      |      |      |      |
+| 1.6 SGF accepts credential offer                                                                                                                                                            |      |      |      |      |      |
+| 1.7 BR offers Holder credential for SGPM and DRW                                                                                                                                            |      |      |      |      |      |
+| 1.8 SGF requests onboarding as a Registrar in the Registry                                                                                                                                  |      |      |      |      |      |
+| 1.8 SGPM accepts credential offer                                                                                                                                                           |      |      |      |      |      |
+| 1.9 BR accepts onboarding request from SGF                                                                                                                                                  |      |      |      |      |      |
+| 1.9 DRW accepts credential offer                                                                                                                                                            |      |      |      |      |      |
+| 1.10 SGPM requests onboarding as a Holder in the Registry                                                                                                                                   |      |      |      |      |      |
+| 1.11 DRW requests onboarding as a Holder in the Registry                                                                                                                                    |      |      |      |      |      |
+| 1.12 BR accepts onboarding requests from SGPM and DRW                                                                                                                                       |      |      |      |      |      |
+| 1.13 SGF creates Registrar Configuration                                                                                                                                                    |      |      |      |      |      |
+| 1.14 Enforcement Service for Issuer and Investors                                                                                                                                           |      |      |      |      |      |
 
 ## Step 2: Token Issuance and Transfer
 
