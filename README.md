@@ -16,16 +16,16 @@
 
 ## Testnet Issuance - October 10, 2025
 
-| Entity                    | Details                                                                     |
-| :------------------------ | :-------------------------------------------------------------------------- |
-| **Broadridge (BR)**       | **URL:** https://utility-broadridge.test.broadridge.catalyst.intellecteu.io |
-|                           | **Party ID:** `broadridge-provider::...`                                    |
-| **SG Forge (SGF)**        | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io     |
-|                           | **Party ID:** `sgforge::...`                                                |
-| **SG Paris (SGPM)**       | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io     |
-|                           | **Party ID:** `sgpm::...`                                                   |
-| **DRW Strategies (DRWS)** | **URL:** https://drws-ui.validator.test.global.canton.network.cumberland.io |
-|                           | **Party ID:** `Cumberland-DRWS-1::...`                                      |
+| Entity                    | Details                                                                                                   |
+| :------------------------ | :-------------------------------------------------------------------------------------------------------- |
+| **Broadridge (BR)**       | **URL:** https://utility-broadridge.test.broadridge.catalyst.intellecteu.io                               |
+|                           | **Party ID:** `broadridge-provider::1220a2b6c297ad498298e417b1cf0068c2654f309d35f0a4b04de6dafe3701e3b58e` |
+| **SG Forge (SGF)**        | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io                                   |
+|                           | **Party ID:** `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                                                                              |
+| **SG Paris (SGPM)**       | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io                                   |
+|                           | **Party ID:** `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                                                                                 |
+| **DRW Strategies (DRWS)** | **URL:** https://drws-ui.validator.test.global.canton.network.cumberland.io                               |
+|                           | **Party ID:** `Cumberland-DRWS-1::...`                                                                    |
 
 ### Step 1: Onboarding roles in Registry
 
