@@ -25,13 +25,13 @@
 | **SG Paris (SGPM)**       | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io                                   |
 |                           | **Party ID:** `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
 | **DRW Strategies (DRWS)** | **URL:** https://drws-ui.validator.test.global.canton.network.cumberland.io                               |
-|                           | **Party ID:** `Cumberland-DRWS-1::...`                                                                    |
+|                           | **Party ID:** `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
 ### Step 1: Onboarding roles in Registry
 
 | Steps                                                                                                                                                                                                            | DA      | BR                        | SGF     | SGPM    | DRWS    |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ | :------------------------ | :------ | :------ | :------ |
-| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)                      | Done    | Issue: IEU working on fix | Done    | Done    | Pending |
+| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)                      | Done    | Issue: IEU working on fix | Done    | Done    | Done    |
 | [1.2 Provider credential for BR](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential)                                                                       | Pending | Pending                   | n/a     | n/a     | n/a     |
 | [1.3 Onboard BR as a Provider](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider)                                                                            | Pending | Pending                   | n/a     | n/a     | n/a     |
 | [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | n/a     | Pending                   | n/a     | n/a     | n/a     |
