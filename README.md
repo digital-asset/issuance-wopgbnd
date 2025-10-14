@@ -78,12 +78,12 @@
 
 ### PartyIDs
 
-| Entity          | Party ID                                                                                    |
-| :-------------- | :------------------------------------------------------------------------------------------ |
-| Broadridge (BR) | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| SG Forge (SGF)  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
-| SGPM            | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
-| DRW             | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
+| Entity     | Party ID                                                                                    |
+| :--------- | :------------------------------------------------------------------------------------------ |
+| Broadridge | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| SG Forge   | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
+| SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
+| DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
 ### Credentials
 
