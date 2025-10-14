@@ -6,7 +6,8 @@
 - [Documentation](#documentation)
 - [Testnet Issuance - October 10, 2025](#testnet-issuance---october-10-2025)
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
-  - [Step 2: Token Issuance and Transfer](#step-2-token-issuance-and-transfer)
+  - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
+  - [Step 3: Token Issuance](#step-3-token-issuance)
 
 ## Documentation
 
@@ -46,17 +47,21 @@
 | [1.13 DRW requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#investor1-requests-onboarding-as-a-holder-in-the-registry)       | -    | -    | -    | -    | 📌    |
 | [1.14 BR accepts onboarding requests from SGPM and DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-requests-from-issuer-investor1)         | -    | 📌    | -    | -    | -    |
 
-### Step 2: Token Issuance and Transfer
+### Step 2: Credential Preparation for Token Issuance and Transfer
 
-| Steps                                                              | DA   | BR   | SGF  | SGPM | DRWS |
-| :----------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token |      |      |      |      |      |
-| 2.2 SGF offers credential of token issuer and holder to SGPM       |      |      |      |      |      |
-| 2.3 SGF offers credential of token holder to DRW                   |      |      |      |      |      |
-| 2.4 SGPM accepts credential offers                                 |      |      |      |      |      |
-| 2.5 DRW accepts credential offer                                   |      |      |      |      |      |
-| 2.6 SGPM requests token issuance (minting)                         |      |      |      |      |      |
-| 2.7 SGF accepts and tokens are issued                              |      |      |      |      |      |
-| 2.8 SGPM offers token transfer to DRW                              |      |      |      |      |      |
-| 2.9 DRW accepts the transfer offer and tokens are transferred      |      |      |      |      |      |
-| 2.10 SGF's and SGPM's view of token holdings                       |      |      |      |      |      |
+| Steps                                                                                                                                                                                                                  | DA   | BR   | SGF  | SGPM | DRWS |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [2.1 SGF (Registrar) specifying the requirement of the SGNOTE token](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token)     | -    | -    | 📌    | -    | -    |
+| [2.2 SGF offers credential of token issuer and holder to SGPM](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) | -    | -    | 📌    | -    | -    |
+| [2.3 SGF offers credential of token holder to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-holder-to-investor1)                     | -    | -    | 📌    | -    | -    |
+| [2.4 SGPM accepts credential offers](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#issuer-accepts-credential-offers)                                                           | -    | -    | -    | 📌    | -    |
+| [2.5 DRW accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#investor1-accepts-credential-offer)                                                           | -    | -    | -    | -    | 📌    |
+
+### Step 3: Token Issuance
+
+| Steps                                                                                                                                                                                                               | DA   | BR   | SGF  | SGPM | DRWS |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--- | :--- | :--- | :--- | :--- |
+| [3.1 SGPM requests token issuance (minting)](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting)                                             | -    | -    | -    | 📌    | -    |
+| [3.2 SGF accepts and tokens are issued](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#registrar-accepts-and-tokens-are-issued)                                                 | -    | -    | 📌    | -    | -    |
+| [3.3 SGPM offers token transfer to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1)                                               | -    | -    | -    | 📌    | -    |
+| [3.4 DRW accepts the transfer offer and tokens are transferred](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#investor1-accepts-the-transfer-offer-and-tokens-are-transferred) | -    | -    | -    | -    | 📌    |
