@@ -11,6 +11,9 @@
 - [Useful information](#useful-information)
   - [PartyID](#partyid)
   - [Credentials](#credentials)
+    - [1.2 DA issues to BR `Provider` credential](#12-da-issues-to-br-provider-credential)
+    - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
+    - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
 
 ## Documentation
 
@@ -81,7 +84,7 @@ broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac65
 
 ### Credentials
 
-DA issues to BR `Provider` credential:
+#### 1.2 DA issues to BR `Provider` credential
 
 ```bash
 broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
@@ -105,4 +108,60 @@ hasRegistryRole
 
 ```bash
 Provider
+```
+
+#### 1.4 Onboarding requirements for registrars and holders
+
+Required credentials for Holders
+
+```bash
+broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
+```
+
+```bash
+hasRegistryRole
+```
+
+```bash
+Holder
+```
+
+Required credentials for Registrars
+
+```bash
+broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
+```
+
+```bash
+hasRegistryRole
+```
+
+```bash
+Registrar
+```
+
+#### 1.5 BR offers Registrar credential for SGF
+
+```bash
+broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
+```
+
+```bash
+SGF registrar
+```
+
+```bash
+SGF registrar
+```
+
+```bash
+sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+hasRegistryRole
+```
+
+```bash
+Registrar
 ```
