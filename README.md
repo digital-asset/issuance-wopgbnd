@@ -16,6 +16,7 @@
     - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
     - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
+    - [2.2 SGF offers credential of token issuer and holder to SGPM](#22-sgf-offers-credential-of-token-issuer-and-holder-to-sgpm)
 
 ## Documentation
 
@@ -153,7 +154,6 @@ DRWS `Holder` credential
 
 #### 2.1 SGF (Registrar) specifying the requirements of the SGNOTES-[CUSIP] tokens
 
-
 | Item                    | Value                                                                           |
 | :---------------------- | :------------------------------------------------------------------------------ |
 | Instrument ID           | `SGNOTES-[CUSIP]`                                                               |
@@ -169,3 +169,28 @@ DRWS `Holder` credential
 | Credential Issuer       | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
 | Property                | `isHolderOf`                                                                    |
 | Value                   | `SGNOTES`                                                                       |
+
+#### 2.2 SGF offers credential of token issuer and holder to SGPM
+
+SG Paris Issuer of SGNOTES credential
+
+| Item        | Value                                                                                     |
+| :---------- | :---------------------------------------------------------------------------------------- |
+| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              |
+| id          | `SGPM-SGNOTES-Issuer`                                                                     |
+| description | `SGPM-SGNOTES-Issuer`                                                                     |
+| Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property    | `isIssuerOf`                                                                         |
+| Value       | `SGNOTES`                                                                                  |
+
+SG Paris Holder of SGNOTES credential
+
+| Item        | Value                                                                                     |
+| :---------- | :---------------------------------------------------------------------------------------- |
+| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              |
+| id          | `SGPM-SGNOTES-Holder`                                                                     |
+| description | `SGPM-SGNOTES-Holder`                                                                     |
+| Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property    | `isHolderOf`                                                                         |
+| Value       | `SGNOTES`                                                                                  |
+
