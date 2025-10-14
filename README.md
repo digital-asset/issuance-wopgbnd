@@ -88,6 +88,18 @@ broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac65
 ```
 
 ```bash
+Broadridge provider
+```
+
+```bash
+Broadridge provider
+```
+
+```bash
+broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
+```
+
+```bash
 hasRegistryRole
 ```
 
