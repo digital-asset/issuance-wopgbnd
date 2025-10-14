@@ -17,6 +17,7 @@
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
     - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
     - [2.2 SGF offers credential of token issuer and holder to SGPM](#22-sgf-offers-credential-of-token-issuer-and-holder-to-sgpm)
+    - [2.3 SGF offers credential of token holder to DRW](#23-sgf-offers-credential-of-token-holder-to-drw)
 
 ## Documentation
 
@@ -174,23 +175,35 @@ DRWS `Holder` credential
 
 SG Paris Issuer of SGNOTES credential
 
-| Item        | Value                                                                                     |
-| :---------- | :---------------------------------------------------------------------------------------- |
-| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              |
-| id          | `SGPM-SGNOTES-Issuer`                                                                     |
-| description | `SGPM-SGNOTES-Issuer`                                                                     |
+| Item        | Value                                                                        |
+| :---------- | :--------------------------------------------------------------------------- |
+| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| id          | `SGPM-SGNOTES-Issuer`                                                        |
+| description | `SGPM-SGNOTES-Issuer`                                                        |
 | Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Property    | `isIssuerOf`                                                                         |
-| Value       | `SGNOTES`                                                                                  |
+| Property    | `isIssuerOf`                                                                 |
+| Value       | `SGNOTES`                                                                    |
+
+SG Paris Holder of SGNOTES credential
+
+| Item        | Value                                                                        |
+| :---------- | :--------------------------------------------------------------------------- |
+| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| id          | `SGPM-SGNOTES-Holder`                                                        |
+| description | `SGPM-SGNOTES-Holder`                                                        |
+| Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property    | `isHolderOf`                                                                 |
+| Value       | `SGNOTES`                                                                    |
+
+#### 2.3 SGF offers credential of token holder to DRW
 
 SG Paris Holder of SGNOTES credential
 
 | Item        | Value                                                                                     |
 | :---------- | :---------------------------------------------------------------------------------------- |
-| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              |
-| id          | `SGPM-SGNOTES-Holder`                                                                     |
-| description | `SGPM-SGNOTES-Holder`                                                                     |
-| Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Property    | `isHolderOf`                                                                         |
-| Value       | `SGNOTES`                                                                                  |
-
+| holder      | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
+| id          | `DRWS-SGNOTES-Holder`                                                                     |
+| description | `DRWS-SGNOTES-Holder`                                                                     |
+| Subject     | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
+| Property    | `isHolderOf`                                                                              |
+| Value       | `SGNOTES`                                                                                 |
