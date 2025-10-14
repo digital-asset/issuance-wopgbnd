@@ -15,7 +15,7 @@
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
     - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
-    - [2.1 SGF (Registrar) specifying the requirement of the SGNOTE token](#21-sgf-registrar-specifying-the-requirement-of-the-sgnote-token)
+    - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
 
 ## Documentation
 
@@ -151,7 +151,7 @@ DRWS `Holder` credential
 | Property    | `hasRegistryRole`                                                                         |
 | Value       | `Holder`                                                                                  |
 
-#### 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token
+#### 2.1 SGF (Registrar) specifying the requirements of the SGNOTES-[CUSIP] tokens
 
 
 | Item                    | Value                                                                           |
