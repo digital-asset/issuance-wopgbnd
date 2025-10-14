@@ -9,7 +9,7 @@
   - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
   - [Step 3: Token Issuance](#step-3-token-issuance)
 - [Useful information](#useful-information)
-  - [PartyID](#partyid)
+  - [PartyIDs](#partyids)
   - [Credentials](#credentials)
     - [1.2 DA issues to BR Provider credential](#12-da-issues-to-br-provider-credential)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
@@ -76,12 +76,30 @@
 
 ## Useful information
 
-### PartyID
+### PartyIDs
 
 BR:
 
 ```bash
 broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
+```
+
+SG Forge (SGF)
+
+```text
+sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+SG Paris (SGPM)
+
+```text
+sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+DRW Strategies (DRWS)
+
+```text
+Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94
 ```
 
 ### Credentials
@@ -170,10 +188,10 @@ Registrar
 
 #### 1.7 BR offers Holder credential for SGPM and DRW
 
-| Holder | Party ID | Display name | Registry role | Role |
-| :----- | :------- | :----------- | :------------ | :--- |
-| SGPM | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` | `SGPM holder` | `hasRegistryRole` | `Holder` |
-| DRW  | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` | `DRW holder`  | `hasRegistryRole` | `Holder` |
+| Holder | Party ID                                                                                  | Display name  | Registry role     | Role     |
+| :----- | :---------------------------------------------------------------------------------------- | :------------ | :---------------- | :------- |
+| SGPM   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              | `SGPM holder` | `hasRegistryRole` | `Holder` |
+| DRW    | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` | `DRW holder`  | `hasRegistryRole` | `Holder` |
 
 #### 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token
 
