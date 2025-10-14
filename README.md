@@ -153,50 +153,19 @@ DRWS `Holder` credential
 
 #### 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token
 
-Instrument ID
 
-```bash
-SGNOTES-[CUSIP]
-```
-
-Additional Instrument Identifiers
-
-```bash
-sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
-```
-
-```bash
-[CUSIP]
-```
-
-```bash
-CUSIP
-```
-
-Required Credentials for Issuers
-
-```bash
-sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
-```
-
-```bash
-isIssuerOf
-```
-
-```bash
-SGNOTES
-```
-
-Required Credentials for Holders
-
-```bash
-sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
-```
-
-```bash
-isHolderOf
-```
-
-```bash
-SGNOTES
-```
+| Item                    | Value                                                                           |
+| :---------------------- | :------------------------------------------------------------------------------ |
+| Instrument ID           | `SGNOTES-[CUSIP]`                                                               |
+| Identifiers             |                                                                                 |
+| Source                  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Id                      | `[CUSIP]`                                                                       |
+| Scheme                  | CUSIP                                                                           |
+| Requirement for Issuers |                                                                                 |
+| Credential Issuer       | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property                | `isIssuerOf`                                                                    |
+| Value                   | `SGNOTES`                                                                       |
+| Requirement for Holders |                                                                                 |
+| Credential Issuer       | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property                | `isHolderOf`                                                                    |
+| Value                   | `SGNOTES`                                                                       |
