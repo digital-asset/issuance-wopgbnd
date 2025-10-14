@@ -169,3 +169,55 @@ Registrar
 
 #### 1.7 BR offers Holder credential for SGPM and DRW
 
+SGPM Holder
+
+```bash
+sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+SGPM holder
+```
+
+```bash
+SGPM holder
+```
+
+```bash
+sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+hasRegistryRole
+```
+
+```bash
+Holder
+```
+
+DRW Holder
+
+```bash
+Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94
+```
+
+```bash
+DRW holder
+```
+
+```bash
+DRW holder
+```
+
+```bash
+Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94
+```
+
+```bash
+hasRegistryRole
+```
+
+```bash
+Holder
+```
+
