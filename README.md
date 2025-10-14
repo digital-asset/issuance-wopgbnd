@@ -92,16 +92,16 @@
 | Item        | Value                                                                                       |
 | :---------- | :------------------------------------------------------------------------------------------ |
 | holder      | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| id          | Broadridge provider                                                                         |
-| description | Broadridge provider                                                                         |
+| id          | `Broadridge provider`                                                                       |
+| description | `Broadridge provider`                                                                       |
 
 Claims
 
 | Item     | Value                                                                                       |
 | :------- | :------------------------------------------------------------------------------------------ |
 | Subject  | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| Property | hasRegistryRole                                                                             |
-| Value    | Provider                                                                                    |
+| Property | `hasRegistryRole`                                                                           |
+| Value    | `Provider`                                                                                  |
 
 #### 1.4 Onboarding requirements for registrars and holders
 
@@ -123,36 +123,53 @@ Required credentials for Registrars
 
 #### 1.5 BR offers Registrar credential for SGF
 
-```bash
-sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
-```
+| Item        | Value                                                                           |
+| :---------- | :------------------------------------------------------------------------------ |
+| holder      | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| id          | `SG Forge registrar`                                                            |
+| description | `SG Forge registrar`                                                            |
 
-```bash
-SGF registrar
-```
+Claims
 
-```bash
-SGF registrar
-```
-
-```bash
-sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
-```
-
-```bash
-hasRegistryRole
-```
-
-```bash
-Registrar
-```
+| Item     | Value                                                                           |
+| :------- | :------------------------------------------------------------------------------ |
+| Subject  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property | `hasRegistryRole`                                                               |
+| Value    | `Registrar`                                                                     |
 
 #### 1.7 BR offers Holder credential for SGPM and DRW
 
-| Holder | Party ID                                                                                  | Display name  | Registry role     | Role     |
-| :----- | :---------------------------------------------------------------------------------------- | :------------ | :---------------- | :------- |
-| SGPM   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`              | `SGPM holder` | `hasRegistryRole` | `Holder` |
-| DRW    | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` | `DRW holder`  | `hasRegistryRole` | `Holder` |
+SG Paris `Holder` credential
+
+| Item        | Value                                                                        |
+| :---------- | :--------------------------------------------------------------------------- |
+| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| id          | `SG Paris holder`                                                            |
+| description | `SG Paris holder`                                                            |
+
+Claims
+
+| Item     | Value                                                                        |
+| :------- | :--------------------------------------------------------------------------- |
+| Subject  | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property | `hasRegistryRole`                                                            |
+| Value    | `Holder`                                                                     |
+
+DRWS `Holder` credential
+
+| Item        | Value                                                                                     |
+| :---------- | :---------------------------------------------------------------------------------------- |
+| holder      | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
+| id          | `DRWS holder`                                                                             |
+| description | `DRWS holder`                                                                             |
+
+Claims
+
+| Item     | Value                                                                                     |
+| :------- | :---------------------------------------------------------------------------------------- |
+| Subject  | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
+| Property | `hasRegistryRole`                                                                         |
+| Value    | `Holder`                                                                                  |
 
 #### 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token
 
