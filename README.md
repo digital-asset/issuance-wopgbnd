@@ -10,6 +10,7 @@
   - [Step 3: Token Issuance](#step-3-token-issuance)
 - [Useful information](#useful-information)
   - [PartyID](#partyid)
+  - [Credentials](#credentials)
 
 ## Documentation
 
@@ -71,3 +72,13 @@
 ## Useful information
 
 ### PartyID
+
+- BR: ```broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259```
+
+### Credentials
+
+DA issues to BR `Provider` credential:
+
+- ```broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259```
+- ```hasRegistryRole```
+- ```Provider```
