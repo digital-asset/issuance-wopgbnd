@@ -89,29 +89,19 @@
 
 #### 1.2 DA issues to BR Provider credential
 
-```bash
-broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
-```
+| Item        | Value                                                                                       |
+| :---------- | :------------------------------------------------------------------------------------------ |
+| holder      | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| id          | Broadridge provider                                                                         |
+| description | Broadridge provider                                                                         |
 
-```bash
-Broadridge provider
-```
+Claims
 
-```bash
-Broadridge provider
-```
-
-```bash
-broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
-```
-
-```bash
-hasRegistryRole
-```
-
-```bash
-Provider
-```
+| Item     | Value                                                                                       |
+| :------- | :------------------------------------------------------------------------------------------ |
+| Subject  | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| Property | hasRegistryRole                                                                             |
+| Value    | Provider                                                                                    |
 
 #### 1.4 Onboarding requirements for registrars and holders
 
@@ -129,7 +119,7 @@ Required credentials for Registrars
 | :---------------- | :------------------------------------------------------------------------------------------ |
 | Credential Issuer | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
 | Property          | `hasRegistryRole`                                                                           |
-| Value             | `Registrar`                                                                                    |
+| Value             | `Registrar`                                                                                 |
 
 #### 1.5 BR offers Registrar credential for SGF
 
