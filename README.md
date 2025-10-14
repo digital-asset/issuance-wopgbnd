@@ -11,10 +11,11 @@
 - [Useful information](#useful-information)
   - [PartyID](#partyid)
   - [Credentials](#credentials)
-    - [1.2 DA issues to BR `Provider` credential](#12-da-issues-to-br-provider-credential)
+    - [1.2 DA issues to BR Provider credential](#12-da-issues-to-br-provider-credential)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
     - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
+    - [2.1 SGF (Registrar) specifying the requirement of the SGNOTE token](#21-sgf-registrar-specifying-the-requirement-of-the-sgnote-token)
 
 ## Documentation
 
@@ -85,7 +86,7 @@ broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac65
 
 ### Credentials
 
-#### 1.2 DA issues to BR `Provider` credential
+#### 1.2 DA issues to BR Provider credential
 
 ```bash
 broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
@@ -221,3 +222,52 @@ hasRegistryRole
 Holder
 ```
 
+#### 2.1 SGF (Registrar) specifying the requirement of the SGNOTE token
+
+Instrument ID
+
+```bash
+SGNOTES-[CUSIP]
+```
+
+Additional Instrument Identifiers
+
+```bash
+sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+[CUSIP]
+```
+
+```bash
+CUSIP
+```
+
+Required Credentials for Issuers
+
+```bash
+sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+isIssuerOf
+```
+
+```bash
+SGNOTES
+```
+
+Required Credentials for Holders
+
+```bash
+sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3
+```
+
+```bash
+isHolderOf
+```
+
+```bash
+SGNOTES
+```
