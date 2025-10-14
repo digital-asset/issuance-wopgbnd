@@ -4,10 +4,12 @@
 
 - [Table of Contents](#table-of-contents)
 - [Documentation](#documentation)
-- [Testnet Issuance - October 10, 2025](#testnet-issuance---october-10-2025)
+- [Testnet Issuance - October 14, 2025](#testnet-issuance---october-14-2025)
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
   - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
   - [Step 3: Token Issuance](#step-3-token-issuance)
+- [Useful information](#useful-information)
+  - [PartyID](#partyid)
 
 ## Documentation
 
@@ -15,7 +17,7 @@
 - [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
 - [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
 
-## Testnet Issuance - October 10, 2025
+## Testnet Issuance - October 14, 2025
 
 | Entity                    | Details                                                                                                   |
 | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
@@ -32,7 +34,7 @@
 
 | Steps                                                                                                                                                                                                            | DA   | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)                      | ✅    | 📌    | ✅    | ✅    | ✅    |
+| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)                      | ✅    | ✅    | ✅    | ✅    | ✅    |
 | [1.2 Provider credential for BR](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential)                                                                       | 📌    | 📌    | -    | -    | -    |
 | [1.3 Onboard BR as a Provider](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider)                                                                            | 📌    | 📌    | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | -    | 📌    | -    | -    | -    |
@@ -65,3 +67,7 @@
 | [3.2 SGF accepts and tokens are issued](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#registrar-accepts-and-tokens-are-issued)                                                 | -    | -    | 📌    | -    | -    |
 | [3.3 SGPM offers token transfer to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1)                                               | -    | -    | -    | 📌    | -    |
 | [3.4 DRW accepts the transfer offer and tokens are transferred](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#investor1-accepts-the-transfer-offer-and-tokens-are-transferred) | -    | -    | -    | -    | 📌    |
+
+## Useful information
+
+### PartyID
