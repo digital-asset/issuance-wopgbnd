@@ -117,31 +117,19 @@ Provider
 
 Required credentials for Holders
 
-```bash
-broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
-```
-
-```bash
-hasRegistryRole
-```
-
-```bash
-Holder
-```
+| Item              | Value                                                                                       |
+| :---------------- | :------------------------------------------------------------------------------------------ |
+| Credential Issuer | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| Property          | `hasRegistryRole`                                                                           |
+| Value             | `Holder`                                                                                    |
 
 Required credentials for Registrars
 
-```bash
-broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259
-```
-
-```bash
-hasRegistryRole
-```
-
-```bash
-Registrar
-```
+| Item              | Value                                                                                       |
+| :---------------- | :------------------------------------------------------------------------------------------ |
+| Credential Issuer | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| Property          | `hasRegistryRole`                                                                           |
+| Value             | `Registrar`                                                                                    |
 
 #### 1.5 BR offers Registrar credential for SGF
 
