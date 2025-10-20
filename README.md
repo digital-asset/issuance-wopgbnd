@@ -11,13 +11,15 @@
 - [Useful information](#useful-information)
   - [PartyIDs](#partyids)
   - [Credentials](#credentials)
-    - [1.2 DA issues to BR Provider credential](#12-da-issues-to-br-provider-credential)
+    - [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)
+    - [1.2 Provider credential](#12-provider-credential)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
     - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
     - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
     - [2.2 SGF offers credential of token issuer and holder to SGPM](#22-sgf-offers-credential-of-token-issuer-and-holder-to-sgpm)
     - [2.3 SGF offers credential of token holder to DRW](#23-sgf-offers-credential-of-token-holder-to-drw)
+    - [3.1 SGPM requests token issuance (minting)](#31-sgpm-requests-token-issuance-minting)
 
 ## Documentation
 
@@ -42,8 +44,8 @@
 
 | Steps                                                                                                                                                                                                            | DA   | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [1.1 Onboarding credential services for all entities](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)                      | ✅    | ✅    | ✅    | ✅    | ✅    |
-| [1.2 Provider credential for BR](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential)                                                                       | ✅    | 📌    | -    | -    | -    |
+| [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                       | ✅    | ✅    | ✅    | ✅    | ✅    |
+| [1.2 Provider credential](#12-provider-credential)                                                                                                                                                               | ✅    | 📌    | -    | -    | -    |
 | [1.3 Onboard BR as a Provider](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider)                                                                            | 📌    | 📌    | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | -    | 📌    | -    | -    | -    |
 | [1.5 BR offers Registrar credential for SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)                                          | -    | 📌    | -    | -    | -    |
@@ -89,7 +91,15 @@
 
 ### Credentials
 
-#### 1.2 DA issues to BR Provider credential
+#### 1.1 Onboarding credential services for all entities
+
+[Tuturial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)
+
+#### 1.2 Provider credential
+
+[Tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential)
+
+Provider credential
 
 | Item        | Value                                                                                       |
 | :---------- | :------------------------------------------------------------------------------------------ |
@@ -99,6 +109,16 @@
 | Subject     | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
 | Property    | `hasRegistryRole`                                                                           |
 | Value       | `Provider`                                                                                  |
+
+Commercial Agreement
+
+| Item                   | Value                                                                                                   |
+| :--------------------- | :------------------------------------------------------------------------------------------------------ |
+| user                   | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259`             |
+| fee receiver           | `DigitalAsset-UtilityFeeReceiver::12202679f2bbe57d8cba9ef3cee847ac8239df0877105ab1f01a77d47477fdce1204` |
+| credential billing fee | 1.75 USD                                                                                                |
+| base fee per day       | 0.00 USD                                                                                                |
+| billing period         | 10 min                                                                                                  |
 
 #### 1.4 Onboarding requirements for registrars and holders
 
@@ -207,3 +227,11 @@ SG Paris Holder of SGNOTES credential
 | Subject     | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
 | Property    | `isHolderOf`                                                                              |
 | Value       | `SGNOTES`                                                                                 |
+
+#### 3.1 SGPM requests token issuance (minting)
+
+| Item       | Value             |
+| :--------- | :---------------- |
+| Instrument | `SGNOTES-[CUSIP]` |
+| Amount     | `1000000`         |
+| Registrar  | `                 |
