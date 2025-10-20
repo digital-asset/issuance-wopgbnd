@@ -12,6 +12,7 @@
     - [PartyIDs](#partyids)
     - [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)
     - [1.2 Provider credential](#12-provider-credential)
+    - [1.3 Onboard Provider](#13-onboard-provider)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
     - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
     - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
@@ -47,7 +48,7 @@
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
 | [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                       | ✅    | ✅       | ✅    | ✅    | ✅    |
 | [1.2 Provider credential](#12-provider-credential)                                                                                                                                                               | ✅    | ✅ by DA | -    | -    | -    |
-| [1.3 Onboard BR as a Provider](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider)                                                                            | -    | ✅ by DA | -    | -    | -    |
+|                                                                                                                                                                                                                  | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | -    | ✅ by DA | -    | -    | -    |
 | [1.5 BR offers Registrar credential for SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)                                          | -    | ✅ by DA | -    | -    | -    |
 | [1.6 SGF accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-accepts-credential-offer)                                                      | -    | -       | 📌    | -    | -    |
@@ -122,9 +123,9 @@ DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 | beneficiary | `DigitalAsset-UtilityFeeReceiver::12202679f2bbe57d8cba9ef3cee847ac8239df0877105ab1f01a77d47477fdce1204` |
 | weight      | 0.20                                                                                                    |
 
-| Module   | Tab                   |
-| :------- | :-------------------- |
-| Settings | Commercial Agreements |
+| Actors | Module   | Tab                   |
+| :----- | :------- | :-------------------- |
+| DA, BR | Settings | Commercial Agreements |
 
 DA offers Commercial Agreement, and BR accepts it:
 
@@ -137,6 +138,10 @@ DA offers Commercial Agreement, and BR accepts it:
 | billing period         | 10 min                                                                                                  |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential) for details.
+
+#### 1.3 Onboard Provider
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider) for details.
 
 #### 1.4 Onboarding requirements for registrars and holders
 
