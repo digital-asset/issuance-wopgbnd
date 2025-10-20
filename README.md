@@ -10,7 +10,6 @@
   - [Step 3: Token Issuance](#step-3-token-issuance)
   - [Detailed information](#detailed-information)
     - [PartyIDs](#partyids)
-  - [Credentials](#credentials)
     - [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)
     - [1.2 Provider credential](#12-provider-credential)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
@@ -91,13 +90,11 @@
 | SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
 | DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
-### Credentials
-
 #### 1.1 Onboarding credential services for all entities
 
-| Module     | Tab        |
-| :--------- | :--------- |
-| Credential | Onboarding |
+| Actor        | Module     | Tab        |
+| :----------- | :--------- | :--------- |
+| All entities | Credential | Onboarding |
 
 All entities `Request Credential User Service`.
 
@@ -105,9 +102,9 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 #### 1.2 Provider credential
 
-| Module     | Tab        |
-| :--------- | :--------- |
-| Credential | Credentials, Offers |
+| Actors | Module     | Tab                 |
+| :----- | :--------- | :------------------ |
+| DA, BR | Credential | Credentials, Offers |
 
 DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 
@@ -120,8 +117,13 @@ DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 | Property    | `hasRegistryRole`                                                                           |
 | Value       | `Provider`                                                                                  |
 
-| Module     | Tab        |
-| :--------- | :--------- |
+| Item        | Value                                                                                                   |
+| :---------- | :------------------------------------------------------------------------------------------------------ |
+| beneficiary | `DigitalAsset-UtilityFeeReceiver::12202679f2bbe57d8cba9ef3cee847ac8239df0877105ab1f01a77d47477fdce1204` |
+| weight      | 0.20                                                                                                    |
+
+| Module   | Tab                   |
+| :------- | :-------------------- |
 | Settings | Commercial Agreements |
 
 DA offers Commercial Agreement, and BR accepts it:
