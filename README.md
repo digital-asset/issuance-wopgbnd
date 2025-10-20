@@ -55,9 +55,7 @@
 | [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                                                                                                             | -    | ✅ by DA | 📌    | -    | -    |
 | [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                                                                                                                       | -    | ✅ by DA | -    | 📌    | 📌    |
 | [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                                                                                                                         | -    | 📌       | 📌    | -    | -    |
-| [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                                                                                                                   | -    | -       | -    | 📌    | -    |
-| [1.13 DRW requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#investor1-requests-onboarding-as-a-holder-in-the-registry) | -    | -       | -    | -    | 📌    |
-| [1.14 BR accepts onboarding requests from SGPM and DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-requests-from-issuer-investor1)   | -    | 📌       | -    | -    | -    |
+| [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                                                                                                                   | -    | 📌       | -    | 📌    | 📌    |
 
 ### Step 2: Credential Preparation for Token Issuance and Transfer
 
