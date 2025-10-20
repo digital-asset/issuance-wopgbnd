@@ -48,7 +48,7 @@
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
 | [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                       | ✅    | ✅       | ✅    | ✅    | ✅    |
 | [1.2 Provider credential](#12-provider-credential)                                                                                                                                                               | ✅    | ✅ by DA | -    | -    | -    |
-|                                                                                                                                                                                                                  | -    | ✅ by DA | -    | -    | -    |
+| [1.3 Onboard Provider](#13-onboard-provider)                                                                                                                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | -    | ✅ by DA | -    | -    | -    |
 | [1.5 BR offers Registrar credential for SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)                                          | -    | ✅ by DA | -    | -    | -    |
 | [1.6 SGF accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-accepts-credential-offer)                                                      | -    | -       | 📌    | -    | -    |
@@ -140,6 +140,12 @@ DA offers Commercial Agreement, and BR accepts it:
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential) for details.
 
 #### 1.3 Onboard Provider
+
+| Actors | Module   | Tab        |
+| :----- | :------- | :--------- |
+| DA, BR | Registry | Onboarding |
+
+BR clicks on `Requests Provider Service`, and DA accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider) for details.
 
