@@ -31,16 +31,16 @@
 
 ### URLs and PartyIDs
 
-| Entity                    | Details                                                                                                   |
-| :------------------------ | :-------------------------------------------------------------------------------------------------------- |
-| **Broadridge (BR)**       | **URL:** https://utility-broadridge.test.broadridge.catalyst.intellecteu.io                               |
-|                           | **Party ID:** `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| **SG Forge (SGF)**        | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io                                   |
-|                           | **Party ID:** `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
-| **SG Paris (SGPM)**       | **URL:** https://utility-socgen.test.broadridge.catalyst.intellecteu.io                                   |
-|                           | **Party ID:** `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
-| **DRW Strategies (DRWS)** | **URL:** https://drws-ui.validator.test.global.canton.network.cumberland.io                               |
-|                           | **Party ID:** `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
+| Entity                    | Details                                                                                     |
+| :------------------------ | :------------------------------------------------------------------------------------------ |
+| **Broadridge (BR)**       | https://utility-broadridge.test.broadridge.catalyst.intellecteu.io                          |
+|                           | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| **SG Forge (SGF)**        | https://utility-socgen.test.broadridge.catalyst.intellecteu.io                              |
+|                           | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
+| **SG Paris (SGPM)**       | https://utility-socgen.test.broadridge.catalyst.intellecteu.io                              |
+|                           | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
+| **DRW Strategies (DRWS)** | https://drws-ui.validator.test.global.canton.network.cumberland.io                          |
+|                           | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
 ### Step 1: Onboarding roles in Registry
 
