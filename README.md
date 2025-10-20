@@ -1,15 +1,15 @@
 # Issuance wopgbnd <!-- omit in toc -->
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents](#table-of-contents)
 - [Documentation](#documentation)
-- [Testnet Issuance - October 14, 2025](#testnet-issuance---october-14-2025)
+- [Testnet Issuance #3 - October, 2025](#testnet-issuance-3---october-2025)
+  - [URLs and PartyIDs](#urls-and-partyids)
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
   - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
   - [Step 3: Token Issuance](#step-3-token-issuance)
-- [Useful information](#useful-information)
-  - [PartyIDs](#partyids)
+  - [Detailed information](#detailed-information)
+    - [PartyIDs](#partyids)
   - [Credentials](#credentials)
     - [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)
     - [1.2 Provider credential](#12-provider-credential)
@@ -27,7 +27,9 @@
 - [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
 - [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
 
-## Testnet Issuance - October 14, 2025
+## Testnet Issuance #3 - October, 2025
+
+### URLs and PartyIDs
 
 | Entity                    | Details                                                                                                   |
 | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
@@ -78,9 +80,9 @@
 | [3.3 SGPM offers token transfer to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1)                                               | -    | -    | -    | 📌    | -    |
 | [3.4 DRW accepts the transfer offer and tokens are transferred](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#investor1-accepts-the-transfer-offer-and-tokens-are-transferred) | -    | -    | -    | -    | 📌    |
 
-## Useful information
+### Detailed information
 
-### PartyIDs
+#### PartyIDs
 
 | Entity     | Party ID                                                                                    |
 | :--------- | :------------------------------------------------------------------------------------------ |
@@ -93,13 +95,21 @@
 
 #### 1.1 Onboarding credential services for all entities
 
-[Tuturial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities)
+| Module     | Tab        |
+| :--------- | :--------- |
+| Credential | Onboarding |
+
+All entities `Request Credential User Service`.
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities) for details.
 
 #### 1.2 Provider credential
 
-[Tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential)
+| Module     | Tab        |
+| :--------- | :--------- |
+| Credential | Credentials, Offers |
 
-Provider credential
+DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 
 | Item        | Value                                                                                       |
 | :---------- | :------------------------------------------------------------------------------------------ |
@@ -110,7 +120,11 @@ Provider credential
 | Property    | `hasRegistryRole`                                                                           |
 | Value       | `Provider`                                                                                  |
 
-Commercial Agreement
+| Module     | Tab        |
+| :--------- | :--------- |
+| Settings | Commercial Agreements |
+
+DA offers Commercial Agreement, and BR accepts it:
 
 | Item                   | Value                                                                                                   |
 | :--------------------- | :------------------------------------------------------------------------------------------------------ |
@@ -119,6 +133,8 @@ Commercial Agreement
 | credential billing fee | 1.75 USD                                                                                                |
 | base fee per day       | 0.00 USD                                                                                                |
 | billing period         | 10 min                                                                                                  |
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential) for details.
 
 #### 1.4 Onboarding requirements for registrars and holders
 
