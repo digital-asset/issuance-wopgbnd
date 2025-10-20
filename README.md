@@ -14,8 +14,9 @@
     - [1.2 Provider credential](#12-provider-credential)
     - [1.3 Onboard Provider](#13-onboard-provider)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
-    - [1.5 BR offers Registrar credential for SGF](#15-br-offers-registrar-credential-for-sgf)
-    - [1.7 BR offers Holder credential for SGPM and DRW](#17-br-offers-holder-credential-for-sgpm-and-drw)
+    - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
+    - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
+  - [1.10 Registrar onboarding](#110-registrar-onboarding)
     - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
     - [2.2 SGF offers credential of token issuer and holder to SGPM](#22-sgf-offers-credential-of-token-issuer-and-holder-to-sgpm)
     - [2.3 SGF offers credential of token holder to DRW](#23-sgf-offers-credential-of-token-holder-to-drw)
@@ -44,22 +45,19 @@
 
 ### Step 1: Onboarding roles in Registry
 
-| Steps                                                                                                                                                                                                            | DA   | BR      | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
-| [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                       | ✅    | ✅       | ✅    | ✅    | ✅    |
-| [1.2 Provider credential](#12-provider-credential)                                                                                                                                                               | ✅    | ✅ by DA | -    | -    | -    |
-| [1.3 Onboard Provider](#13-onboard-provider)                                                                                                                                                                     | -    | ✅ by DA | -    | -    | -    |
-| [1.4 Onboarding requirements for registrars and holders](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders)                | -    | ✅ by DA | -    | -    | -    |
-| [1.5 BR offers Registrar credential for SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)                                          | -    | ✅ by DA | -    | -    | -    |
-| [1.6 SGF accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-accepts-credential-offer)                                                      | -    | -       | 📌    | -    | -    |
-| [1.7 BR offers Holder credential for SGPM and DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-holder-credential-for-issuer-investor1)                  | -    | ✅ by DA | -    | -    | -    |
-| [1.8 SGPM accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-accepts-credential-offer)                                                        | -    | -       | -    | 📌    | -    |
-| [1.9 DRW accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#investor1-accepts-credential-offer)                                                      | -    | -       | -    | -    | 📌    |
-| [1.10 SGF requests onboarding as a Registrar in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) | -    | -       | 📌    | -    | -    |
-| [1.11 BR accepts onboarding request from SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-request-from-registrar)                           | -    | 📌       | -    | -    | -    |
-| [1.12 SGPM requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-requests-onboarding-as-a-holder-in-the-registry)         | -    | -       | -    | 📌    | -    |
-| [1.13 DRW requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#investor1-requests-onboarding-as-a-holder-in-the-registry)       | -    | -       | -    | -    | 📌    |
-| [1.14 BR accepts onboarding requests from SGPM and DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-requests-from-issuer-investor1)         | -    | 📌       | -    | -    | -    |
+| Steps                                                                                                                                                                                                      | DA   | BR      | SGF  | SGPM | DRWS |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
+| [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                 | ✅    | ✅       | ✅    | ✅    | ✅    |
+| [1.2 Provider credential](#12-provider-credential)                                                                                                                                                         | ✅    | ✅ by DA | -    | -    | -    |
+| [1.3 Onboard Provider](#13-onboard-provider)                                                                                                                                                               | -    | ✅ by DA | -    | -    | -    |
+| [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)                                                                                           | -    | ✅ by DA | -    | -    | -    |
+| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                                                                                                             | -    | ✅ by DA | 📌    | -    | -    |
+| [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                                                                                                                       | -    | ✅ by DA | -    | 📌    | 📌    |
+|                                                                                                                                                                                                            | -    | -       | 📌    | -    | -    |
+| [1.11 BR accepts onboarding request from SGF](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-request-from-registrar)                     | -    | 📌       | -    | -    | -    |
+| [1.12 SGPM requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-requests-onboarding-as-a-holder-in-the-registry)   | -    | -       | -    | 📌    | -    |
+| [1.13 DRW requests onboarding as a Holder in the Registry](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#investor1-requests-onboarding-as-a-holder-in-the-registry) | -    | -       | -    | -    | 📌    |
+| [1.14 BR accepts onboarding requests from SGPM and DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-accepts-onboarding-requests-from-issuer-investor1)   | -    | 📌       | -    | -    | -    |
 
 ### Step 2: Credential Preparation for Token Issuance and Transfer
 
@@ -151,6 +149,12 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 #### 1.4 Onboarding requirements for registrars and holders
 
+| Actors | Module   | Tab           |
+| :----- | :------- | :------------ |
+| BR     | Registry | Configuration |
+
+BR creates a Provider Configuration.
+
 Required credentials for Holders
 
 | Item              | Value                                                                                       |
@@ -167,7 +171,15 @@ Required credentials for Registrars
 | Property          | `hasRegistryRole`                                                                           |
 | Value             | `Registrar`                                                                                 |
 
-#### 1.5 BR offers Registrar credential for SGF
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders) for details.
+
+#### 1.5 / 1.6 Registrar credential
+
+| Actors  | Module     | Tab                 |
+| :------ | :--------- | :------------------ |
+| BR, SGF | Credential | Credentials, Offers |
+
+BR offers a free Registrar credential (Credentials tab), and SGF accepts it (Offers tab).
 
 | Item        | Value                                                                           |
 | :---------- | :------------------------------------------------------------------------------ |
@@ -178,9 +190,17 @@ Required credentials for Registrars
 | Property    | `hasRegistryRole`                                                               |
 | Value       | `Registrar`                                                                     |
 
-#### 1.7 BR offers Holder credential for SGPM and DRW
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)for details.
 
-SG Paris `Holder` credential
+#### 1.7 / 1.8 / 1.9 Holder credentials
+
+| Actors         | Module     | Tab                 |
+| :------------- | :--------- | :------------------ |
+| BR, SGPM, DRWS | Credential | Credentials, Offers |
+
+BR offers 2 free Holder credentials, and SGPM and DRWS accept them (Offers tab).
+
+SG Paris `Holder` credential:
 
 | Item        | Value                                                                        |
 | :---------- | :--------------------------------------------------------------------------- |
@@ -191,7 +211,7 @@ SG Paris `Holder` credential
 | Property    | `hasRegistryRole`                                                            |
 | Value       | `Holder`                                                                     |
 
-DRWS `Holder` credential
+DRWS `Holder` credential:
 
 | Item        | Value                                                                                     |
 | :---------- | :---------------------------------------------------------------------------------------- |
@@ -201,6 +221,20 @@ DRWS `Holder` credential
 | Subject     | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
 | Property    | `hasRegistryRole`                                                                         |
 | Value       | `Holder`                                                                                  |
+
+### 1.10 Registrar onboarding
+
+| Actors | Module   | Tab        |
+| :----- | :------- | :--------- |
+| SGF    | Registry | Onboarding |
+
+SGF clicks on `Requests Provider Service`, and BR accepts.
+
+| Item     | Value                                                                                       |
+| :------- | :------------------------------------------------------------------------------------------ |
+| Provider | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) for details.
 
 #### 2.1 SGF (Registrar) specifying the requirements of the SGNOTES-[CUSIP] tokens
 
