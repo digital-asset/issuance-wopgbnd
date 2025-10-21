@@ -14,7 +14,6 @@
   - [1.3 Onboard Provider](#13-onboard-provider)
   - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
   - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
-  - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
   - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
   - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
   - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
@@ -180,43 +179,13 @@ BR offers a free Registrar credential (Credentials tab), and SGF accepts it (Off
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)for details.
 
-### 1.7 / 1.8 / 1.9 Holder credentials
-
-| Actors         | Module     | Tab                 |
-| :------------- | :--------- | :------------------ |
-| BR, SGPM, DRWS | Credential | Credentials, Offers |
-
-BR offers 2 free Holder credentials, and SGPM and DRWS accept them (Offers tab).
-
-SG Paris `Holder` credential:
-
-| Item        | Value                                                                        |
-| :---------- | :--------------------------------------------------------------------------- |
-| holder      | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| id          | `SG Paris holder`                                                            |
-| description | `SG Paris holder`                                                            |
-| Subject     | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Property    | `hasRegistryRole`                                                            |
-| Value       | `Holder`                                                                     |
-
-DRWS `Holder` credential:
-
-| Item        | Value                                                                                     |
-| :---------- | :---------------------------------------------------------------------------------------- |
-| holder      | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
-| id          | `DRWS holder`                                                                             |
-| description | `DRWS holder`                                                                             |
-| Subject     | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
-| Property    | `hasRegistryRole`                                                                         |
-| Value       | `Holder`                                                                                  |
-
 ### 1.10 / 1.11 Registrar onboarding
 
 | Actors  | Module   | Tab        |
 | :------ | :------- | :--------- |
 | SGF, BR | Registry | Onboarding |
 
-SGF clicks on `Requests Provider Service`, and BR accepts.
+SGF clicks on `Requests Registrar Service`, and BR accepts.
 
 | Item     | Value                                                                                       |
 | :------- | :------------------------------------------------------------------------------------------ |
