@@ -263,6 +263,8 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 ### 3.1 Issuer requests token issuance (minting)
 
+> THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
+
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
 | SGPM   | Registry | Mints |
