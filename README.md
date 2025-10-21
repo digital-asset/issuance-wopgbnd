@@ -7,8 +7,8 @@
   - [URLs](#urls)
   - [PartyIDs](#partyids)
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
-  - [Step 2: Configuring token](#step-2-configuring-token)
-  - [Step 3: Issuing token](#step-3-issuing-token)
+  - [Step 2: Configuring tokens](#step-2-configuring-tokens)
+  - [Step 3: Issuing tokens](#step-3-issuing-tokens)
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
   - [1.2 Provider credential](#12-provider-credential)
   - [1.3 Onboard Provider](#13-onboard-provider)
@@ -63,14 +63,14 @@
 | [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
 | [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                         | -    | 📌       | -    | 📌    | 📌    |
 
-### Step 2: Configuring token
+### Step 2: Configuring tokens
 
 | Steps                                                                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
 | [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | 📌    | -    | -    |
 | [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | 📌    | 📌    | 📌    |
 
-### Step 3: Issuing token
+### Step 3: Issuing tokens
 
 | Steps                                                                                          | DA   | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
