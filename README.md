@@ -4,11 +4,11 @@
 
 - [Documentation](#documentation)
 - [Testnet Issuance #3 - October, 2025](#testnet-issuance-3---october-2025)
-  - [URLs and PartyIDs](#urls-and-partyids)
+  - [URLs](#urls)
+  - [PartyIDs](#partyids)
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
   - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
   - [Step 3: Token Issuance](#step-3-token-issuance)
-  - [PartyIDs](#partyids)
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
   - [1.2 Provider credential](#12-provider-credential)
   - [1.3 Onboard Provider](#13-onboard-provider)
@@ -32,18 +32,23 @@
 
 ## Testnet Issuance #3 - October, 2025
 
-### URLs and PartyIDs
+### URLs
 
-| Entity                    | Details                                                                                     |
-| :------------------------ | :------------------------------------------------------------------------------------------ |
-| **Broadridge (BR)**       | https://utility-broadridge.test.broadridge.catalyst.intellecteu.io                          |
-|                           | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| **SG Forge (SGF)**        | https://utility-socgen.test.broadridge.catalyst.intellecteu.io                              |
-|                           | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
-| **SG Paris (SGPM)**       | https://utility-socgen.test.broadridge.catalyst.intellecteu.io                              |
-|                           | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
-| **DRW Strategies (DRWS)** | https://drws-ui.validator.test.global.canton.network.cumberland.io                          |
-|                           | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
+| Entity                | Details                                                            |
+| :-------------------- | :----------------------------------------------------------------- |
+| Broadridge (BR)       | https://utility-broadridge.test.broadridge.catalyst.intellecteu.io |
+| SG Forge (SGF)        | https://utility-socgen.test.broadridge.catalyst.intellecteu.io     |
+| SG Paris (SGPM)       | https://utility-socgen.test.broadridge.catalyst.intellecteu.io     |
+| DRW Strategies (DRWS) | https://drws-ui.validator.test.global.canton.network.cumberland.io |
+
+### PartyIDs
+
+| Entity     | Party ID                                                                                    |
+| :--------- | :------------------------------------------------------------------------------------------ |
+| Broadridge | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
+| SG Forge   | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
+| SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
+| DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
 ### Step 1: Onboarding roles in Registry
 
@@ -73,15 +78,6 @@
 | [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -    | -    |
 | [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌    | -    |
 | [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
-
-### PartyIDs
-
-| Entity     | Party ID                                                                                    |
-| :--------- | :------------------------------------------------------------------------------------------ |
-| Broadridge | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-| SG Forge   | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`             |
-| SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
-| DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
 ### 1.1 Credential User Service for all entities
 
