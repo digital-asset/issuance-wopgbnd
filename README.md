@@ -10,7 +10,7 @@
   - [Step 3: Token Issuance](#step-3-token-issuance)
   - [Detailed information](#detailed-information)
     - [PartyIDs](#partyids)
-    - [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)
+    - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
     - [1.2 Provider credential](#12-provider-credential)
     - [1.3 Onboard Provider](#13-onboard-provider)
     - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
@@ -18,10 +18,12 @@
     - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
     - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
     - [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)
-    - [2.1 SGF (Registrar) specifying the requirements of the SGNOTES-\[CUSIP\] tokens](#21-sgf-registrar-specifying-the-requirements-of-the-sgnotes-cusip-tokens)
-    - [2.2 SGF offers credential of token issuer and holder to SGPM](#22-sgf-offers-credential-of-token-issuer-and-holder-to-sgpm)
-    - [2.3 SGF offers credential of token holder to DRW](#23-sgf-offers-credential-of-token-holder-to-drw)
-    - [3.1 SGPM requests token issuance (minting)](#31-sgpm-requests-token-issuance-minting)
+    - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
+    - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
+    - [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)
+    - [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)
+    - [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors)
+    - [3.4 Investor accepts transfer](#34-investor-accepts-transfer)
 
 ## Documentation
 
@@ -46,35 +48,32 @@
 
 ### Step 1: Onboarding roles in Registry
 
-| Steps                                                                                                                                                                                                      | DA   | BR      | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
-| [1.1 Onboarding credential services for all entities](#11-onboarding-credential-services-for-all-entities)                                                                                                 | ✅    | ✅       | ✅    | ✅    | ✅    |
-| [1.2 Provider credential](#12-provider-credential)                                                                                                                                                         | ✅    | ✅ by DA | -    | -    | -    |
-| [1.3 Onboard Provider](#13-onboard-provider)                                                                                                                                                               | -    | ✅ by DA | -    | -    | -    |
-| [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)                                                                                           | -    | ✅ by DA | -    | -    | -    |
-| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                                                                                                             | -    | ✅ by DA | 📌    | -    | -    |
-| [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                                                                                                                       | -    | ✅ by DA | -    | 📌    | 📌    |
-| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                                                                                                                         | -    | 📌       | 📌    | -    | -    |
-| [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                                                                                                                   | -    | 📌       | -    | 📌    | 📌    |
+| Steps                                                                                                            | DA   | BR      | SGF  | SGPM | DRWS |
+| :--------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
+| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | ✅    | ✅       | ✅    | ✅    | ✅    |
+| [1.2 Provider credential](#12-provider-credential)                                                               | ✅    | ✅ by DA | -    | -    | -    |
+| [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
+| [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
+| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | 📌    | -    | -    |
+| [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                             | -    | ✅ by DA | -    | 📌    | 📌    |
+| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
+| [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                         | -    | 📌       | -    | 📌    | 📌    |
 
 ### Step 2: Credential Preparation for Token Issuance and Transfer
 
-| Steps                                                                                                                                                                                                                  | DA   | BR   | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [2.1 SGF (Registrar) specifying the requirement of the SGNOTE token](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token)     | -    | -    | 📌    | -    | -    |
-| [2.2 SGF offers credential of token issuer and holder to SGPM](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) | -    | -    | 📌    | -    | -    |
-| [2.3 SGF offers credential of token holder to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-holder-to-investor1)                     | -    | -    | 📌    | -    | -    |
-| [2.4 SGPM accepts credential offers](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#issuer-accepts-credential-offers)                                                           | -    | -    | -    | 📌    | -    |
-| [2.5 DRW accepts credential offer](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#investor1-accepts-credential-offer)                                                           | -    | -    | -    | -    | 📌    |
+| Steps                                                                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
+| :------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | 📌    | -    | -    |
+| [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | 📌    | 📌    | 📌    |
 
 ### Step 3: Token Issuance
 
-| Steps                                                                                                                                                                                                               | DA   | BR   | SGF  | SGPM | DRWS |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--- | :--- | :--- | :--- | :--- |
-| [3.1 SGPM requests token issuance (minting)](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting)                                             | -    | -    | -    | 📌    | -    |
-| [3.2 SGF accepts and tokens are issued](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#registrar-accepts-and-tokens-are-issued)                                                 | -    | -    | 📌    | -    | -    |
-| [3.3 SGPM offers token transfer to DRW](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1)                                               | -    | -    | -    | 📌    | -    |
-| [3.4 DRW accepts the transfer offer and tokens are transferred](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#investor1-accepts-the-transfer-offer-and-tokens-are-transferred) | -    | -    | -    | -    | 📌    |
+| Steps                                                                                          | DA   | BR   | SGF  | SGPM | DRWS |
+| :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 📌    | -    |
+| [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -    | -    |
+| [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌    | -    |
+| [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
 
 ### Detailed information
 
@@ -87,7 +86,7 @@
 | SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
 | DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
-#### 1.1 Onboarding credential services for all entities
+#### 1.1 Credential User Service for all entities
 
 | Actor        | Module     | Tab        |
 | :----------- | :--------- | :--------- |
@@ -248,11 +247,17 @@ SGPM, DRWS click on `Requests Holder Service`, and BR accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-requests-onboarding-as-a-holder-in-the-registry) for details.
 
-#### 2.1 SGF (Registrar) specifying the requirements of the SGNOTES-[CUSIP] tokens
+#### 2.1 Registrar specifies Instrument Configuration
+
+| Actors | Module   | Tab           |
+| :----- | :------- | :------------ |
+| SGF    | Registry | Configuration |
+
+SGF creates Instrument Configuration:
 
 | Item                    | Value                                                                           |
 | :---------------------- | :------------------------------------------------------------------------------ |
-| Instrument ID           | `SGNOTES-[CUSIP]`                                                               |
+| Instrument ID           | `SGNOTES-[CUSIP]-TESTNET`                                                       |
 | Identifiers             |                                                                                 |
 | Source                  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
 | Id                      | `[CUSIP]`                                                                       |
@@ -266,9 +271,17 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 | Property                | `isHolderOf`                                                                    |
 | Value                   | `SGNOTES`                                                                       |
 
-#### 2.2 SGF offers credential of token issuer and holder to SGPM
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token) for details.
 
-SG Paris Issuer of SGNOTES credential
+#### 2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders
+
+| Actors          | Module     | Tab                 |
+| :-------------- | :--------- | :------------------ |
+| SGF, SGPM, DRWS | Credential | Credentials, Offers |
+
+SGF issues free credentials (Credentials tab), and SGPM / DRWS accept them (Offers tab).
+
+SG Paris Issuer of SGNOTES credential:
 
 | Item        | Value                                                                        |
 | :---------- | :--------------------------------------------------------------------------- |
@@ -279,7 +292,7 @@ SG Paris Issuer of SGNOTES credential
 | Property    | `isIssuerOf`                                                                 |
 | Value       | `SGNOTES`                                                                    |
 
-SG Paris Holder of SGNOTES credential
+SG Paris Holder of SGNOTES credential:
 
 | Item        | Value                                                                        |
 | :---------- | :--------------------------------------------------------------------------- |
@@ -290,9 +303,7 @@ SG Paris Holder of SGNOTES credential
 | Property    | `isHolderOf`                                                                 |
 | Value       | `SGNOTES`                                                                    |
 
-#### 2.3 SGF offers credential of token holder to DRW
-
-SG Paris Holder of SGNOTES credential
+DRWS Holder of SGNOTES credential
 
 | Item        | Value                                                                                     |
 | :---------- | :---------------------------------------------------------------------------------------- |
@@ -303,10 +314,57 @@ SG Paris Holder of SGNOTES credential
 | Property    | `isHolderOf`                                                                              |
 | Value       | `SGNOTES`                                                                                 |
 
-#### 3.1 SGPM requests token issuance (minting)
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) for details.
 
-| Item       | Value             |
-| :--------- | :---------------- |
-| Instrument | `SGNOTES-[CUSIP]` |
-| Amount     | `1000000`         |
-| Registrar  | `                 |
+#### 3.1 Issuer requests token issuance (minting)
+
+| Actors | Module   | Tab   |
+| :----- | :------- | :---- |
+| SGPM   | Registry | Mints |
+
+| Item       | Value                                                                           |
+| :--------- | :------------------------------------------------------------------------------ |
+| Instrument | `SGNOTES-[CUSIP]-TESTNET`                                                       |
+| Amount     | `1000000`                                                                       |
+| Registrar  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m issued Oct-2025`                                   |
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting) for details.
+
+#### 3.2 Registrar accepts and tokens are issued
+
+| Actors | Module   | Tab   |
+| :----- | :------- | :---- |
+| SGF    | Registry | Mints |
+
+SGF accepts and tokens are issued.
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#registrar-accepts-and-tokens-are-issued) for details.
+
+#### 3.3 Issuer offers token transfer to Investors
+
+| Actors | Module   | Tab      |
+| :----- | :------- | :------- |
+| SGPM   | Registry | Holdings |
+
+SGPM transfers tokens to DRWS
+
+| Item       | Value                                                                                     |
+| :--------- | :---------------------------------------------------------------------------------------- |
+| Receiver   | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94` |
+| Instrument | `SGNOTES-[CUSIP]-TESTNET`                                                                 |
+| Amount     | `1000000`                                                                                 |
+| Registar   | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`           |
+| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m placement to DRWS                                            |
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
+
+#### 3.4 Investor accepts transfer
+
+| Actors | Module   | Tab       |
+| :----- | :------- | :-------- |
+| DRWS   | Registry | Transfers |
+
+DRWS accepts transfer offer.
+
+See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#investor1-accepts-the-transfer-offer-and-tokens-are-transferred) for details.
