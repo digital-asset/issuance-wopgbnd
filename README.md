@@ -264,6 +264,8 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 ### 3.1 Issuer requests token issuance (minting)
 
 > THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
+> 
+> UI calls https://api.utilities.digitalasset-staging.com/api/utilities/v0/registry/mint/v0/request which returns a 404
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
