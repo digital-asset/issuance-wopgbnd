@@ -60,7 +60,6 @@
 | [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | 📌    | -    | -    |
 | [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                             | -    | ✅ by DA | -    | 📌    | ✅    |
 | [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
-| [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                         | -    | 📌       | -    | 📌    | 📌    |
 
 ### Step 2: Configuring tokens
 
