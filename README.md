@@ -16,7 +16,6 @@
   - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
   - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
   - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
-  - [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)
   - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
   - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
   - [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)
@@ -59,7 +58,7 @@
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
 | [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | 📌    | -    | -    |
-| [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                             | -    | ✅ by DA | -    | 📌    | 📌    |
+| [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)                                             | -    | ✅ by DA | -    | 📌    | ✅    |
 | [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
 | [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)                                         | -    | 📌       | -    | 📌    | 📌    |
 
@@ -225,20 +224,6 @@ SGF clicks on `Requests Provider Service`, and BR accepts.
 | Provider | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) for details.
-
-### 1.12 / 1.13 / 1.14 Holder onboarding
-
-| Actors         | Module   | Tab        |
-| :------------- | :------- | :--------- |
-| SGPM, DRWS, BR | Registry | Onboarding |
-
-SGPM, DRWS click on `Requests Holder Service`, and BR accepts.
-
-| Item     | Value                                                                                       |
-| :------- | :------------------------------------------------------------------------------------------ |
-| Provider | `broadridge-provider::1220992258bad53ba6cb1aa634bb912d457f3e0382892ced2d00b4cac654e6e52259` |
-
-See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-requests-onboarding-as-a-holder-in-the-registry) for details.
 
 ### 2.1 Registrar specifies Instrument Configuration
 
