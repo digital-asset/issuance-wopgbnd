@@ -70,7 +70,7 @@
 
 | Steps                                                                                          | DA   | BR   | SGF  | SGPM  | DRWS |
 | :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :---- | :--- |
-| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 📌 BUG | -    |
+| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 🛑 BUG | -    |
 | [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -     | -    |
 | [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌     | -    |
 | [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -     | 📌    |
