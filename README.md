@@ -6,7 +6,7 @@
 - [Testnet Issuance #3 - October, 2025](#testnet-issuance-3---october-2025)
   - [URLs](#urls)
   - [PartyIDs](#partyids)
-  - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
+  - [Step 1: Onboarding roles](#step-1-onboarding-roles)
   - [Step 2: Configuring tokens](#step-2-configuring-tokens)
   - [Step 3: Issuing tokens](#step-3-issuing-tokens)
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
@@ -50,7 +50,7 @@
 | SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
 | DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
-### Step 1: Onboarding roles in Registry
+### Step 1: Onboarding roles
 
 | Steps                                                                                                            | DA   | BR      | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
