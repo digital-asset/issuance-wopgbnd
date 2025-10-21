@@ -57,7 +57,7 @@
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
 | [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | ✅    | -    | -    |
-| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
+| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | ✅    | -    | -    |
 
 ### Step 2: Configuring tokens
 
