@@ -56,7 +56,7 @@
 | [1.2 Provider credential](#12-provider-credential)                                                               | ✅    | ✅ by DA | -    | -    | -    |
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
-| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | 📌    | -    | -    |
+| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | ✅    | -    | -    |
 | [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | 📌    | -    | -    |
 
 ### Step 2: Configuring tokens
@@ -184,7 +184,7 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 | :------ | :------- | :--------- |
 | SGF, BR | Registry | Onboarding |
 
-SGF clicks on `Requests Registrar Service`, and BR accepts.
+SGF clicks on `Request Registrar Service`, and BR accepts.
 
 | Item     | Value                                                                                       |
 | :------- | :------------------------------------------------------------------------------------------ |
