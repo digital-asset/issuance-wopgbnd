@@ -8,22 +8,21 @@
   - [Step 1: Onboarding roles in Registry](#step-1-onboarding-roles-in-registry)
   - [Step 2: Credential Preparation for Token Issuance and Transfer](#step-2-credential-preparation-for-token-issuance-and-transfer)
   - [Step 3: Token Issuance](#step-3-token-issuance)
-  - [Detailed information](#detailed-information)
-    - [PartyIDs](#partyids)
-    - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
-    - [1.2 Provider credential](#12-provider-credential)
-    - [1.3 Onboard Provider](#13-onboard-provider)
-    - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
-    - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
-    - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
-    - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
-    - [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)
-    - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
-    - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
-    - [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)
-    - [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)
-    - [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors)
-    - [3.4 Investor accepts transfer](#34-investor-accepts-transfer)
+  - [PartyIDs](#partyids)
+  - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
+  - [1.2 Provider credential](#12-provider-credential)
+  - [1.3 Onboard Provider](#13-onboard-provider)
+  - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
+  - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
+  - [1.7 / 1.8 / 1.9 Holder credentials](#17--18--19-holder-credentials)
+  - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
+  - [1.12 / 1.13 / 1.14 Holder onboarding](#112--113--114-holder-onboarding)
+  - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
+  - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
+  - [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)
+  - [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)
+  - [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors)
+  - [3.4 Investor accepts transfer](#34-investor-accepts-transfer)
 
 ## Documentation
 
@@ -75,9 +74,7 @@
 | [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌    | -    |
 | [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
 
-### Detailed information
-
-#### PartyIDs
+### PartyIDs
 
 | Entity     | Party ID                                                                                    |
 | :--------- | :------------------------------------------------------------------------------------------ |
@@ -86,7 +83,7 @@
 | SG Paris   | `sgpm::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`                |
 | DRWS       | `Cumberland-DRWS-1::12209d887b76480848434826589f69cb2ca46a670bc948fbc75bccfe933b78f2dd94`   |
 
-#### 1.1 Credential User Service for all entities
+### 1.1 Credential User Service for all entities
 
 | Actor        | Module     | Tab        |
 | :----------- | :--------- | :--------- |
@@ -96,7 +93,7 @@ All entities `Request Credential User Service`.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-credential-services-for-all-entities) for details.
 
-#### 1.2 Provider credential
+### 1.2 Provider credential
 
 | Actors | Module     | Tab                 |
 | :----- | :--------- | :------------------ |
@@ -134,7 +131,7 @@ DA offers Commercial Agreement, and BR accepts it:
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential) for details.
 
-#### 1.3 Onboard Provider
+### 1.3 Onboard Provider
 
 | Actors | Module   | Tab        |
 | :----- | :------- | :--------- |
@@ -144,7 +141,7 @@ BR clicks on `Requests Provider Service`, and DA accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider) for details.
 
-#### 1.4 Onboarding requirements for registrars and holders
+### 1.4 Onboarding requirements for registrars and holders
 
 | Actors | Module   | Tab           |
 | :----- | :------- | :------------ |
@@ -170,7 +167,7 @@ Required credentials for Registrars
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders) for details.
 
-#### 1.5 / 1.6 Registrar credential
+### 1.5 / 1.6 Registrar credential
 
 | Actors  | Module     | Tab                 |
 | :------ | :--------- | :------------------ |
@@ -189,7 +186,7 @@ BR offers a free Registrar credential (Credentials tab), and SGF accepts it (Off
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-offers-registrar-credential)for details.
 
-#### 1.7 / 1.8 / 1.9 Holder credentials
+### 1.7 / 1.8 / 1.9 Holder credentials
 
 | Actors         | Module     | Tab                 |
 | :------------- | :--------- | :------------------ |
@@ -219,7 +216,7 @@ DRWS `Holder` credential:
 | Property    | `hasRegistryRole`                                                                         |
 | Value       | `Holder`                                                                                  |
 
-#### 1.10 / 1.11 Registrar onboarding
+### 1.10 / 1.11 Registrar onboarding
 
 | Actors  | Module   | Tab        |
 | :------ | :------- | :--------- |
@@ -233,7 +230,7 @@ SGF clicks on `Requests Provider Service`, and BR accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) for details.
 
-#### 1.12 / 1.13 / 1.14 Holder onboarding
+### 1.12 / 1.13 / 1.14 Holder onboarding
 
 | Actors         | Module   | Tab        |
 | :------------- | :------- | :--------- |
@@ -247,7 +244,7 @@ SGPM, DRWS click on `Requests Holder Service`, and BR accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#issuer-requests-onboarding-as-a-holder-in-the-registry) for details.
 
-#### 2.1 Registrar specifies Instrument Configuration
+### 2.1 Registrar specifies Instrument Configuration
 
 | Actors | Module   | Tab           |
 | :----- | :------- | :------------ |
@@ -273,7 +270,7 @@ SGF creates Instrument Configuration:
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token) for details.
 
-#### 2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders
+### 2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders
 
 | Actors          | Module     | Tab                 |
 | :-------------- | :--------- | :------------------ |
@@ -316,7 +313,7 @@ DRWS Holder of SGNOTES credential
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) for details.
 
-#### 3.1 Issuer requests token issuance (minting)
+### 3.1 Issuer requests token issuance (minting)
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
@@ -331,7 +328,7 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting) for details.
 
-#### 3.2 Registrar accepts and tokens are issued
+### 3.2 Registrar accepts and tokens are issued
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
@@ -341,7 +338,7 @@ SGF accepts and tokens are issued.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#registrar-accepts-and-tokens-are-issued) for details.
 
-#### 3.3 Issuer offers token transfer to Investors
+### 3.3 Issuer offers token transfer to Investors
 
 | Actors | Module   | Tab      |
 | :----- | :------- | :------- |
@@ -359,7 +356,7 @@ SGPM transfers tokens to DRWS
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
 
-#### 3.4 Investor accepts transfer
+### 3.4 Investor accepts transfer
 
 | Actors | Module   | Tab       |
 | :----- | :------- | :-------- |
