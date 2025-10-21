@@ -57,23 +57,23 @@
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
 | [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅ by DA | ✅    | -    | -    |
-| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | 📌       | ✅    | -    | -    |
+| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | ✅       | ✅    | -    | -    |
 
 ### Step 2: Configuring tokens
 
 | Steps                                                                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | 📌    | -    | -    |
-| [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | 📌    | 📌    | 📌    |
+| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | ✅    | -    | -    |
+| [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | ✅    | ✅    | ✅    |
 
 ### Step 3: Issuing tokens
 
-| Steps                                                                                          | DA   | BR   | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 📌    | -    |
-| [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -    | -    |
-| [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌    | -    |
-| [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
+| Steps                                                                                          | DA   | BR   | SGF  | SGPM  | DRWS |
+| :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :---- | :--- |
+| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 📌 BUG | -    |
+| [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -     | -    |
+| [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌     | -    |
+| [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -     | 📌    |
 
 ### 1.1 Credential User Service for all entities
 
@@ -200,21 +200,21 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 SGF creates Instrument Configuration:
 
-| Item                    | Value                                                                           |
-| :---------------------- | :------------------------------------------------------------------------------ |
-| Instrument ID           | `SGNOTES-[CUSIP]-TESTNET`                                                       |
-| Identifiers             |                                                                                 |
-| Source                  | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Id                      | `[CUSIP]`                                                                       |
-| Scheme                  | CUSIP                                                                           |
-| Requirement for Issuers |                                                                                 |
-| Credential Issuer       | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Property                | `isIssuerOf`                                                                    |
-| Value                   | `SGNOTES`                                                                       |
-| Requirement for Holders |                                                                                 |
-| Credential Issuer       | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
-| Property                | `isHolderOf`                                                                    |
-| Value                   | `SGNOTES`                                                                       |
+| Item                        | Value                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------ |
+| Instrument ID               | `SGNOTES-[CUSIP]-TESTNET`                                                       |
+| Identifiers                 |                                                                                 |
+| Source                      | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Id                          | `[CUSIP]`                                                                       |
+| Scheme                      | CUSIP                                                                           |
+| Requirement for Mint Issuer |                                                                                 |
+| Credential Issuer           | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property                    | `isIssuerOf`                                                                    |
+| Value                       | `SGNOTES`                                                                       |
+| Requirement for Holders     |                                                                                 |
+| Credential Issuer           | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3` |
+| Property                    | `isHolderOf`                                                                    |
+| Value                       | `SGNOTES`                                                                       |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token) for details.
 
