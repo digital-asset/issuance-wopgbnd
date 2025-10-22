@@ -63,17 +63,17 @@
 
 | Steps                                                                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | ✅    | -    | -    |
+| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | 📌    | -    | -    |
 | [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | ✅    | ✅    | ✅    |
 
 ### Step 3: Issuing tokens
 
-| Steps                                                                                          | DA   | BR   | SGF  | SGPM  | DRWS |
-| :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :---- | :--- |
-| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 🛑 BUG | -    |
-| [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -     | -    |
-| [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌     | -    |
-| [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -     | 📌    |
+| Steps                                                                                          | DA   | BR   | SGF  | SGPM | DRWS |
+| :--------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)     | -    | -    | -    | 📌    | -    |
+| [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)     | -    | -    | 📌    | -    | -    |
+| [3.3 Issuer offers token transfer to Investors](#33-issuer-offers-token-transfer-to-investors) | -    | -    | -    | 📌    | -    |
+| [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
 
 ### 1.1 Credential User Service for all entities
 
