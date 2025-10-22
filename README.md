@@ -15,7 +15,7 @@
   - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
   - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
   - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
-  - [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)
+  - [2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration](#21-registrar-creates-allocation-factory-transfer-rule-and-specifies-instrument-configuration)
   - [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)
   - [3.1 Issuer requests token issuance (minting)](#31-issuer-requests-token-issuance-minting)
   - [3.2 Registrar accepts and tokens are issued](#32-registrar-accepts-and-tokens-are-issued)
@@ -192,11 +192,15 @@ SGF clicks on `Request Registrar Service`, and BR accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) for details.
 
-### 2.1 Registrar specifies Instrument Configuration
+### 2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration
 
 | Actors | Module   | Tab           |
 | :----- | :------- | :------------ |
 | SGF    | Registry | Configuration |
+
+SGF clicks on `Create Allocation Factory` and `Create Transfer Rule`.
+
+Both boxes should turn from blue to grey.
 
 SGF creates Instrument Configuration:
 
@@ -262,6 +266,8 @@ DRWS Holder of SGNOTES credential
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) for details.
 
 ### 3.1 Issuer requests token issuance (minting)
+
+
 
 > THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
 > 
