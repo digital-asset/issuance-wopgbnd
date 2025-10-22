@@ -202,6 +202,8 @@ SGF clicks on `Create Allocation Factory` and `Create Transfer Rule`.
 
 Both boxes should turn from blue to grey.
 
+![Allocation Factory Transfer Rule](images/AllocationFactory-TransferRule.png)
+
 SGF creates Instrument Configuration:
 
 | Item                        | Value                                                                           |
