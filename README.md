@@ -61,10 +61,10 @@
 
 ### Step 2: Configuring tokens
 
-| Steps                                                                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
-| :------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [2.1 Registrar specifies Instrument Configuration](#21-registrar-specifies-instrument-configuration)                                         | -    | -    | 📌    | -    | -    |
-| [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders) | -    | -    | ✅    | ✅    | ✅    |
+| Steps                                                                                                                                                                                           | DA   | BR   | SGF  | SGPM | DRWS |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration](#21-registrar-creates-allocation-factory-transfer-rule-and-specifies-instrument-configuration) | -    | -    | 📌    | -    | -    |
+| [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)                                                    | -    | -    | ✅    | ✅    | ✅    |
 
 ### Step 3: Issuing tokens
 
