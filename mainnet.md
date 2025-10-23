@@ -11,7 +11,7 @@
   - [Step 2: Configuring tokens](#step-2-configuring-tokens)
   - [Step 3: Issuing tokens](#step-3-issuing-tokens)
 - [Detailed instructions](#detailed-instructions)
-  - [0.1 Setpu BR node](#01-setpu-br-node)
+  - [0.1 Setup BR node](#01-setup-br-node)
   - [0.2 Setup SG node](#02-setup-sg-node)
   - [0.3 Setup DRW node](#03-setup-drw-node)
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
@@ -55,12 +55,11 @@
 
 ### Step 0: Infrastructure Setup
 
-| Steps                                    | IEU  | DRW  |
-| :--------------------------------------- | :--- | :--- |
-| [0.1 Setpu BR node](#01-setpu-br-node)   | 📌    | -    |
-| [0.2 Setup SG node](#02-setup-sg-node)   | 📌    | -    |
-| [0.3 Setup DRW node](#03-setup-drw-node) | -    | 📌    |
-
+| Steps                                    | IEU  | BR   | SGF  | SGPM | DRWS |
+| :--------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [0.1 Setup BR node](#01-setup-br-node)   | 📌    | 📌    | -    | -    | -    |
+| [0.2 Setup SG node](#02-setup-sg-node)   | 📌    | -    | 📌    | 📌    | -    |
+| [0.3 Setup DRW node](#03-setup-drw-node) | -    | -    | -    | -    | 📌    |
 
 ### Step 1: Onboarding roles
 
@@ -91,17 +90,35 @@
 
 ## Detailed instructions
 
-### 0.1 Setpu BR node
+### 0.1 Setup BR node
 
-IEU to replicate Testnet #3 configuration of BR node on mainnet
+IEU replicate Testnet #3 configuration of BR node on mainnet:
+
+- url, confirm https://utility-broadridge.broadridge.catalyst.intellecteu.io
+- partyIDs: `broadridge-provider::xxx`
+- access credentials shared securely
+
+BR confirm that they are able to access (no IP restriction issues, no firewall issues, no polling issues).
 
 ### 0.2 Setup SG node
 
-IEU to replicate Testnet #3 configuration of SG node on mainnet
+IEU replicate Testnet #3 configuration of SG node on mainnet:
+
+- url, confirm https://utility-socgen.broadridge.catalyst.intellecteu.io
+- partyIDs: `sgforge::xxx`, `sgpm::xxx`
+- access credentials shared securely
+
+SGF and SGPM confirm that they are able to access (no IP restriction issues, no firewall issues).
 
 ### 0.3 Setup DRW node
 
-DRW to replicate Testnet #3 configuration of DRW node on mainnet
+DRW to replicate Testnet #3 configuration of DRW node on mainnet:
+
+- url, confirm https://drws-ui.validator.global.canton.network.cumberland.io
+- partyIDs: `Cumberland-DRWS-1::xxx`
+- access credentials shared securely
+
+DRWS confirm that they are able to access.
 
 ### 1.1 Credential User Service for all entities
 
@@ -297,10 +314,8 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 ### 3.1 Issuer requests token issuance (minting)
 
-
-
 > THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
-> 
+>
 > UI calls https://api.utilities.digitalasset-staging.com/api/utilities/v0/registry/mint/v0/request which returns a 404
 
 | Actors | Module   | Tab   |
