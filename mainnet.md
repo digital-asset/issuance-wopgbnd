@@ -6,10 +6,14 @@
 - [URLs](#urls)
 - [PartyIDs](#partyids)
 - [Status](#status)
+  - [Step 0: Infrastructure Setup](#step-0-infrastructure-setup)
   - [Step 1: Onboarding roles](#step-1-onboarding-roles)
   - [Step 2: Configuring tokens](#step-2-configuring-tokens)
   - [Step 3: Issuing tokens](#step-3-issuing-tokens)
 - [Detailed instructions](#detailed-instructions)
+  - [0.1 Setpu BR node](#01-setpu-br-node)
+  - [0.2 Setup SG node](#02-setup-sg-node)
+  - [0.3 Setup DRW node](#03-setup-drw-node)
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
   - [1.2 Provider credential](#12-provider-credential)
   - [1.3 Onboard Provider](#13-onboard-provider)
@@ -49,6 +53,15 @@
 
 ## Status
 
+### Step 0: Infrastructure Setup
+
+| Steps                                    | IEU  | DRW  |
+| :--------------------------------------- | :--- | :--- |
+| [0.1 Setpu BR node](#01-setpu-br-node)   | 📌    | -    |
+| [0.2 Setup SG node](#02-setup-sg-node)   | 📌    | -    |
+| [0.3 Setup DRW node](#03-setup-drw-node) | -    | 📌    |
+
+
 ### Step 1: Onboarding roles
 
 | Steps                                                                                                            | DA   | BR   | SGF  | SGPM | DRWS |
@@ -77,6 +90,18 @@
 | [3.4 Investor accepts transfer](#34-investor-accepts-transfer)                                 | -    | -    | -    | -    | 📌    |
 
 ## Detailed instructions
+
+### 0.1 Setpu BR node
+
+IEU to replicate Testnet #3 configuration of BR node on mainnet
+
+### 0.2 Setup SG node
+
+IEU to replicate Testnet #3 configuration of SG node on mainnet
+
+### 0.3 Setup DRW node
+
+DRW to replicate Testnet #3 configuration of DRW node on mainnet
 
 ### 1.1 Credential User Service for all entities
 
