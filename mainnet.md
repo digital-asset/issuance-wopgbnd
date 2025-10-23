@@ -147,25 +147,6 @@ DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 | Property    | `hasRegistryRole`           |
 | Value       | `Provider`                  |
 
-| Item        | Value                                  |
-| :---------- | :------------------------------------- |
-| beneficiary | `DigitalAsset-UtilityFeeReceiver::xxx` |
-| weight      | 0.20                                   |
-
-| Actors | Module   | Tab                   |
-| :----- | :------- | :-------------------- |
-| DA, BR | Settings | Commercial Agreements |
-
-DA offers Commercial Agreement, and BR accepts it:
-
-| Item                   | Value                                  |
-| :--------------------- | :------------------------------------- |
-| user                   | `broadridge-provider::xxxx`            |
-| fee receiver           | `DigitalAsset-UtilityFeeReceiver::xxx` |
-| credential billing fee | 1.75 USD                               |
-| base fee per day       | 0.00 USD                               |
-| billing period         | 10 min                                 |
-
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#provider-credential) for details.
 
 ### 1.3 Onboard Provider
