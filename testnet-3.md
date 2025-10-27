@@ -36,7 +36,7 @@
 | Broadridge (BR)       | https://utility-broadridge.test.broadridge.catalyst.intellecteu.io | 0.9.2              |
 | SG Forge (SGF)        | https://utility-socgen.test.broadridge.catalyst.intellecteu.io     | 0.9.2              |
 | SG Paris (SGPM)       | https://utility-socgen.test.broadridge.catalyst.intellecteu.io     | 0.9.2              |
-| DRW Strategies (DRWS) | https://drws-ui.validator.test.global.canton.network.cumberland.io | 0.9.x              |
+| DRW Strategies (DRWS) | https://drws-ui.validator.test.global.canton.network.cumberland.io | TBC                |
 
 ## PartyIDs
 
