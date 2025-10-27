@@ -3,7 +3,7 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Documentation](#documentation)
-- [URLs](#urls)
+- [URLs \& Versions](#urls--versions)
 - [PartyIDs](#partyids)
 - [Status](#status)
   - [Step 0: Infrastructure Setup](#step-0-infrastructure-setup)
@@ -33,7 +33,7 @@
 - [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
 - [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
 
-## URLs
+## URLs & Versions
 
 | Entity                | Details                                                       | Utility UI version |
 | :-------------------- | :------------------------------------------------------------ | ------------------ |
