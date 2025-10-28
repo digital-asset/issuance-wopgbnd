@@ -53,7 +53,7 @@
 
 | Steps                                                                                                            | DA   | BR      | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------------------------- | :--- | :------ | :--- | :--- | :--- |
-| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | ✅    | ✅       | ✅    | ✅    | ✅    |
+| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | -    | ✅       | ✅    | ✅    | ✅    |
 | [1.2 Provider credential](#12-provider-credential)                                                               | ✅    | ✅ by DA | -    | -    | -    |
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | ✅ by DA | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅ by DA | -    | -    | -    |
