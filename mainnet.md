@@ -46,9 +46,9 @@
 
 | Entity     | Party ID                   |
 | :--------- | :------------------------- |
-| Broadridge | `broadridge-provider::xxx` |
-| SG Forge   | `sgforge::xxx`             |
-| SG Paris   | `sgpm::xxx`                |
+| Broadridge | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
+| SG Forge   | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`             |
+| SG Paris   | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`                |
 | DRWS       | `Cumberland-DRWS-1::xxx`   |
 
 ## Status
@@ -57,8 +57,8 @@
 
 | Steps                                    | IEU  | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [0.1 Setup BR node](#01-setup-br-node)   | 📌    | 📌    | -    | -    | -    |
-| [0.2 Setup SG node](#02-setup-sg-node)   | 📌    | -    | 📌    | 📌    | -    |
+| [0.1 Setup BR node](#01-setup-br-node)   | ✅    | 📌    | -    | -    | -    |
+| [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | 📌    | 📌    | -    |
 | [0.3 Setup DRW node](#03-setup-drw-node) | -    | -    | -    | -    | 📌    |
 
 ### Step 1: Onboarding roles
@@ -95,7 +95,7 @@
 IEU replicate Testnet #3 configuration of BR node on mainnet:
 
 - url, confirm https://utility-broadridge.broadridge.catalyst.intellecteu.io
-- partyIDs: `broadridge-provider::xxx`
+- partyIDs: `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818`
 - access credentials shared securely
 
 BR confirm that they are able to access (no IP restriction issues, no firewall issues, no polling issues).
@@ -105,7 +105,7 @@ BR confirm that they are able to access (no IP restriction issues, no firewall i
 IEU replicate Testnet #3 configuration of SG node on mainnet:
 
 - url, confirm https://utility-socgen.broadridge.catalyst.intellecteu.io
-- partyIDs: `sgforge::xxx`, `sgpm::xxx`
+- partyIDs: `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`, `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`
 - access credentials shared securely
 
 SGF and SGPM confirm that they are able to access (no IP restriction issues, no firewall issues).
@@ -140,10 +140,10 @@ DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
 
 | Item        | Value                       |
 | :---------- | :-------------------------- |
-| holder      | `broadridge-provider::xxxx` |
+| holder      | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 | id          | `Broadridge provider`       |
 | description | `Broadridge provider`       |
-| Subject     | `broadridge-provider::xxxx` |
+| Subject     | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 | Property    | `hasRegistryRole`           |
 | Value       | `Provider`                  |
 
@@ -171,7 +171,7 @@ Required credentials for Holders
 
 | Item              | Value                       |
 | :---------------- | :-------------------------- |
-| Credential Issuer | `broadridge-provider::xxxx` |
+| Credential Issuer | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 | Property          | `hasRegistryRole`           |
 | Value             | `Holder`                    |
 
@@ -179,7 +179,7 @@ Required credentials for Registrars
 
 | Item              | Value                       |
 | :---------------- | :-------------------------- |
-| Credential Issuer | `broadridge-provider::xxxx` |
+| Credential Issuer | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 | Property          | `hasRegistryRole`           |
 | Value             | `Registrar`                 |
 
@@ -195,10 +195,10 @@ BR offers a free Registrar credential (Credentials tab), and SGF accepts it (Off
 
 | Item        | Value                |
 | :---------- | :------------------- |
-| holder      | `sgforge::xxxx`      |
+| holder      | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`      |
 | id          | `SG Forge registrar` |
 | description | `SG Forge registrar` |
-| Subject     | `sgforge::xxxx`      |
+| Subject     | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`      |
 | Property    | `hasRegistryRole`    |
 | Value       | `Registrar`          |
 
@@ -214,7 +214,7 @@ SGF clicks on `Request Registrar Service`, and BR accepts.
 
 | Item     | Value                       |
 | :------- | :-------------------------- |
-| Provider | `broadridge-provider::xxxx` |
+| Provider | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#registrar-requests-onboarding-as-a-registrar-in-the-registry) for details.
 
@@ -236,15 +236,15 @@ SGF creates Instrument Configuration:
 | :-------------------------- | :------------------------ |
 | Instrument ID               | `SGNOTES-[CUSIP]-TESTNET` |
 | Identifiers                 |                           |
-| Source                      | `sgforge::xxxx`           |
+| Source                      | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | Id                          | `[CUSIP]`                 |
 | Scheme                      | CUSIP                     |
 | Requirement for Mint Issuer |                           |
-| Credential Issuer           | `sgforge::xxxx`           |
+| Credential Issuer           | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | Property                    | `isIssuerOf`              |
 | Value                       | `SGNOTES`                 |
 | Requirement for Holders     |                           |
-| Credential Issuer           | `sgforge::xxxx`           |
+| Credential Issuer           | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | Property                    | `isHolderOf`              |
 | Value                       | `SGNOTES`                 |
 
@@ -262,10 +262,10 @@ SG Paris Issuer of SGNOTES credential:
 
 | Item        | Value                 |
 | :---------- | :-------------------- |
-| holder      | `sgpm::xxx`           |
+| holder      | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | id          | `SGPM-SGNOTES-Issuer` |
 | description | `SGPM-SGNOTES-Issuer` |
-| Subject     | `sgpm::xxx`           |
+| Subject     | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | Property    | `isIssuerOf`          |
 | Value       | `SGNOTES`             |
 
@@ -273,10 +273,10 @@ SG Paris Holder of SGNOTES credential:
 
 | Item        | Value                 |
 | :---------- | :-------------------- |
-| holder      | `sgpm::xxx`           |
+| holder      | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | id          | `SGPM-SGNOTES-Holder` |
 | description | `SGPM-SGNOTES-Holder` |
-| Subject     | `sgpm::xxx`           |
+| Subject     | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
 | Property    | `isHolderOf`          |
 | Value       | `SGNOTES`             |
 
@@ -307,7 +307,7 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 | :--------- | :-------------------------------------------- |
 | Instrument | `SGNOTES-[CUSIP]-TESTNET`                     |
 | Amount     | `1000000`                                     |
-| Registrar  | `sgforge::xxxx`                               |
+| Registrar  | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`                               |
 | Reference  | `SGNOTES-[CUSIP]-TESTNET $1m issued Oct-2025` |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting) for details.
@@ -335,7 +335,7 @@ SGPM transfers tokens to DRWS
 | Receiver   | `Cumberland-DRWS-1::xxx`                       |
 | Instrument | `SGNOTES-[CUSIP]-TESTNET`                      |
 | Amount     | `1000000`                                      |
-| Registar   | `sgforge::xxxx`                                |
+| Registar   | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`                                |
 | Reference  | `SGNOTES-[CUSIP]-TESTNET $1m placement to DRWS |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
