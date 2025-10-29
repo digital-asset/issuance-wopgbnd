@@ -58,14 +58,14 @@
 | Steps                                    | IEU  | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------- | :--- | :--- | :--- | :--- | :--- |
 | [0.1 Setup BR node](#01-setup-br-node)   | ✅    | 📌    | -    | -    | -    |
-| [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | ✅    | 📌    | -    |
+| [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | ✅    | OoO  | -    |
 | [0.3 Setup DRW node](#03-setup-drw-node) | -    | -    | -    | -    | ✅    |
 
 ### Step 1: Onboarding roles
 
 | Steps                                                                                                            | DA   | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | -    | 📌    | 📌    | 📌    | ✅    |
+| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | -    | 📌    | 📌    | OoO  | ✅    |
 | [1.2 Provider credential](#12-provider-credential)                                                               | 📌    | 📌    | -    | -    | -    |
 | [1.3 Onboard Provider](#13-onboard-provider)                                                                     | -    | 📌    | -    | -    | -    |
 | [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | 📌    | -    | -    | -    |
