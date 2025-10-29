@@ -57,7 +57,7 @@
 
 | Steps                                    | IEU  | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [0.1 Setup BR node](#01-setup-br-node)   | ✅    | 📌    | -    | -    | -    |
+| [0.1 Setup BR node](#01-setup-br-node)   | ✅    | ✅    | -    | -    | -    |
 | [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | ✅    | OoO  | -    |
 | [0.3 Setup DRW node](#03-setup-drw-node) | -    | -    | -    | -    | ✅    |
 
