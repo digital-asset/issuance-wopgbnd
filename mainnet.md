@@ -100,6 +100,10 @@ IEU replicate Testnet #3 configuration of BR node on mainnet:
 
 BR confirm that they are able to access (no IP restriction issues, no firewall issues, no polling issues).
 
+BR turns off `Network Polling` and `Websockets` to avoid potential corporate firewall issues.
+
+![Polling_Websocket_off](images/AllocationFactory-TransferRule.png)
+
 ### 0.2 Setup SG node
 
 IEU replicate Testnet #3 configuration of SG node on mainnet:
