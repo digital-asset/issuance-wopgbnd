@@ -17,7 +17,7 @@
   - [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)
   - [1.2 Provider credential](#12-provider-credential)
   - [1.3 Onboard Provider](#13-onboard-provider)
-  - [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders)
+  - [1.4 Onboard Registrar](#14-onboard-registrar)
   - [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)
   - [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)
   - [2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration](#21-registrar-creates-allocation-factory-transfer-rule-and-specifies-instrument-configuration)
@@ -63,14 +63,14 @@
 
 ### Step 1: Onboarding roles
 
-| Steps                                                                                                            | DA   | BR   | SGF  | SGPM | DRWS |
-| :--------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities)                     | -    | ✅    | ✅    | 📌    | ✅    |
-| [1.2 Provider credential](#12-provider-credential)                                                               | ✅    | ✅    | -    | -    | -    |
-| [1.3 Onboard Provider](#13-onboard-provider)                                                                     | ✅    | ✅    | -    | -    | -    |
-| [1.4 Onboarding requirements for registrars and holders](#14-onboarding-requirements-for-registrars-and-holders) | -    | ✅    | -    | -    | -    |
-| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                                                   | -    | ✅    | ✅    | -    | -    |
-| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                                               | -    | ✅    | ✅    | -    | -    |
+| Steps                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
+| :------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities) | -    | ✅    | ✅    | 📌    | ✅    |
+| [1.2 Provider credential](#12-provider-credential)                                           | ✅    | ✅    | -    | -    | -    |
+| [1.3 Onboard Provider](#13-onboard-provider)                                                 | ✅    | ✅    | -    | -    | -    |
+| [1.4 Onboard Registrar](#14-onboard-registrar)                                               | -    | ✅    | -    | -    | -    |
+| [1.5 / 1.6 Registrar credential](#15--16-registrar-credential)                               | -    | ✅    | ✅    | -    | -    |
+| [1.10 / 1.11 Registrar onboarding](#110--111-registrar-onboarding)                           | -    | ✅    | ✅    | -    | -    |
 
 ### Step 2: Configuring tokens
 
@@ -163,7 +163,7 @@ BR clicks on `Requests Provider Service`, and DA accepts.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboard-provider) for details.
 
-### 1.4 Onboarding requirements for registrars and holders
+### 1.4 Onboard Registrar
 
 | Actors | Module   | Tab           |
 | :----- | :------- | :------------ |
