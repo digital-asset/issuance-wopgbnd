@@ -309,7 +309,7 @@ SGPM transfers tokens to DRWS
 | Instrument | `SGNOTES-[CUSIP]-TESTNET`                                                                 |
 | Amount     | `1000000`                                                                                 |
 | Registar   | `sgforge::12206c7de045405eb47f7ecfb1fa82665672664e4b9ab350b7064ef7bceb8bc8cbe3`           |
-| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m placement to DRWS                                            |
+| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m placement to DRWS`                                           |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
 

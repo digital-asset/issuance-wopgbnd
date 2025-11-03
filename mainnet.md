@@ -333,7 +333,7 @@ SGPM transfers tokens to DRWS
 | Instrument | `SGNOTES-US83371K1025`                                                                    |
 | Amount     | `1000000`                                                                                 |
 | Registar   | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
-| Reference  | `SGNOTES-US83371K1025 $1m placement to DRWS                                               |
+| Reference  | `SGNOTES-US83371K1025 $1m placement to DRWS`                                              |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
 
