@@ -306,10 +306,10 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 | Item       | Value                                                                           |
 | :--------- | :------------------------------------------------------------------------------ |
-| Instrument | `SGNOTES-[CUSIP]-TESTNET`                                                       |
+| Instrument | `SGNOTES-US83371K1025`                                                          |
 | Amount     | `1000000`                                                                       |
 | Registrar  | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
-| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m issued Oct-2025`                                   |
+| Reference  | `SGNOTES-US83371K1025 $1m issued Nov-2025`                                      |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-requests-token-issuance-minting) for details.
 
@@ -334,10 +334,10 @@ SGPM transfers tokens to DRWS
 | Item       | Value                                                                                     |
 | :--------- | :---------------------------------------------------------------------------------------- |
 | Receiver   | `Cumberland-DRWS-1::1220f792fc36ceb9f88536e862f0923f1b655cccb9a711ee4d5ede1397ad722bb155` |
-| Instrument | `SGNOTES-[CUSIP]-TESTNET`                                                                 |
+| Instrument | `SGNOTES-US83371K1025`                                                                    |
 | Amount     | `1000000`                                                                                 |
 | Registar   | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`           |
-| Reference  | `SGNOTES-[CUSIP]-TESTNET $1m placement to DRWS                                            |
+| Reference  | `SGNOTES-US83371K1025 $1m placement to DRWS                                               |
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/3-issuance.html#issuer-offers-token-transfer-to-investor1) for details.
 
