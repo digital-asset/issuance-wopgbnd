@@ -102,7 +102,7 @@ BR confirms that they are able to access (no IP restriction issues, no firewall 
 
 BR turns off `Network Polling` and `Websockets` to avoid potential corporate firewall issues.
 
-![Polling_Websocket_off](images/AllocationFactory-TransferRule.png)
+![Polling_Websocket_off](images/Polling_Websocket_off.png)
 
 ### 0.2 Setup SG node
 
