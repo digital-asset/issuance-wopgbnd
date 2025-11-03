@@ -94,11 +94,11 @@
 
 IEU replicate Testnet #3 configuration of BR node on mainnet:
 
-- url, confirm https://utility-broadridge.broadridge.catalyst.intellecteu.io
+- url: https://utility-broadridge.broadridge.catalyst.intellecteu.io
 - partyIDs: `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818`
 - access credentials shared securely
 
-BR confirm that they are able to access (no IP restriction issues, no firewall issues, no polling issues).
+BR confirms that they are able to access (no IP restriction issues, no firewall issues, no polling issues).
 
 BR turns off `Network Polling` and `Websockets` to avoid potential corporate firewall issues.
 
@@ -108,7 +108,7 @@ BR turns off `Network Polling` and `Websockets` to avoid potential corporate fir
 
 IEU replicate Testnet #3 configuration of SG node on mainnet:
 
-- url, confirm https://utility-socgen.broadridge.catalyst.intellecteu.io
+- url: https://utility-socgen.broadridge.catalyst.intellecteu.io
 - partyIDs: `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`, `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`
 - access credentials shared securely
 
@@ -118,11 +118,11 @@ SGF and SGPM confirm that they are able to access (no IP restriction issues, no 
 
 DRW to replicate Testnet #3 configuration of DRW node on mainnet:
 
-- url, confirm https://drws-ui.validator.global.canton.network.cumberland.io
+- url: https://drws-ui.validator.global.canton.network.cumberland.io
 - partyIDs: `Cumberland-DRWS-1::1220f792fc36ceb9f88536e862f0923f1b655cccb9a711ee4d5ede1397ad722bb155`
 - access credentials shared securely
 
-DRWS confirm that they are able to access.
+DRWS confirms that they are able to access.
 
 ### 1.1 Credential User Service for all entities
 
@@ -140,7 +140,7 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 | :----- | :--------- | :------------------ |
 | DA, BR | Credential | Credentials, Offers |
 
-DA offers Provider credential (Credentials tab), and BR accepts it (Offers tab):
+DA offers to BR a Provider credential (Credentials tab), and BR accepts it (Offers tab):
 
 | Item        | Value                                                                                       |
 | :---------- | :------------------------------------------------------------------------------------------ |
@@ -189,7 +189,7 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 | :------ | :--------- | :------------------ |
 | BR, SGF | Credential | Credentials, Offers |
 
-BR offers a free Registrar credential (Credentials tab), and SGF accepts it (Offers tab).
+BR offers to SGF a Registrar credential (Credentials tab), and SGF accepts it (Offers tab).
 
 | Item        | Value                                                                           |
 | :---------- | :------------------------------------------------------------------------------ |
@@ -295,10 +295,6 @@ DRWS Holder of SGNOTES credential
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) for details.
 
 ### 3.1 Issuer requests token issuance (minting)
-
-> THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
->
-> UI calls https://api.utilities.digitalasset-staging.com/api/utilities/v0/registry/mint/v0/request which returns a 404
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |

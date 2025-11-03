@@ -3,7 +3,7 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Documentation](#documentation)
-- [URLs](#urls)
+- [URLs \& Versions](#urls--versions)
 - [PartyIDs](#partyids)
 - [Status](#status)
   - [Step 1: Onboarding roles](#step-1-onboarding-roles)
@@ -271,10 +271,6 @@ DRWS Holder of SGNOTES credential
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-offers-credential-of-token-issuer-and-holder-to-issuer) for details.
 
 ### 3.1 Issuer requests token issuance (minting)
-
-> THIS STEP IS NOT WORKING. DA IS LOOKING INTO THE ISSUE.
->
-> UI calls https://api.utilities.digitalasset-staging.com/api/utilities/v0/registry/mint/v0/request which returns a 404
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
