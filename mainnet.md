@@ -232,10 +232,13 @@ SGF creates Instrument Configuration:
 
 | Item                        | Value                                                                           |
 | :-------------------------- | :------------------------------------------------------------------------------ |
-| Instrument ID               | `SGNOTES-[CUSIP]-TESTNET`                                                       |
+| Instrument ID               | `SGNOTES-US83371K1025`                                                          |
 | Identifiers                 |                                                                                 |
 | Source                      | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
-| Id                          | `[CUSIP]`                                                                       |
+| Id                          | `US83371K1025`                                                                  |
+| Scheme                      | ISIN                                                                            |
+| Source                      | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
+| Id                          | `83371K 102`                                                                    |
 | Scheme                      | CUSIP                                                                           |
 | Requirement for Mint Issuer |                                                                                 |
 | Credential Issuer           | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
