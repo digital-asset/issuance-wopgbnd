@@ -171,14 +171,6 @@ See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuanc
 
 BR creates a Provider Configuration.
 
-Required credentials for Holders
-
-| Item              | Value                                                                                       |
-| :---------------- | :------------------------------------------------------------------------------------------ |
-| Credential Issuer | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
-| Property          | `hasRegistryRole`                                                                           |
-| Value             | `Holder`                                                                                    |
-
 Required credentials for Registrars
 
 | Item              | Value                                                                                       |
@@ -186,6 +178,8 @@ Required credentials for Registrars
 | Credential Issuer | `broadridge-provider::1220fb5d230808f7caabd740d797daabfc31c7418180e2b1fd2365658f3220edf818` |
 | Property          | `hasRegistryRole`                                                                           |
 | Value             | `Registrar`                                                                                 |
+
+> Note: Credentials for Holders are no longer required. Whitelisting is done by the Registrar at the Instrument Configuration level.
 
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/1-onboarding.html#onboarding-requirements-for-registrars-and-holders) for details.
 
