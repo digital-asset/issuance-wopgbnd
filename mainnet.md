@@ -58,14 +58,14 @@
 | Steps                                    | IEU  | BR   | SGF  | SGPM | DRWS |
 | :--------------------------------------- | :--- | :--- | :--- | :--- | :--- |
 | [0.1 Setup BR node](#01-setup-br-node)   | ✅    | ✅    | -    | -    | -    |
-| [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | ✅    | 📌    | -    |
+| [0.2 Setup SG node](#02-setup-sg-node)   | ✅    | -    | ✅    | ✅    | -    |
 | [0.3 Setup DRW node](#03-setup-drw-node) | -    | -    | -    | -    | ✅    |
 
 ### Step 1: Onboarding roles
 
 | Steps                                                                                        | DA   | BR   | SGF  | SGPM | DRWS |
 | :------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities) | -    | ✅    | ✅    | 📌    | ✅    |
+| [1.1 Credential User Service for all entities](#11-credential-user-service-for-all-entities) | -    | ✅    | ✅    | ✅    | ✅    |
 | [1.2 Provider credential](#12-provider-credential)                                           | ✅    | ✅    | -    | -    | -    |
 | [1.3 Onboard Provider](#13-onboard-provider)                                                 | ✅    | ✅    | -    | -    | -    |
 | [1.4 Onboard Registrar](#14-onboard-registrar)                                               | -    | ✅    | -    | -    | -    |
@@ -76,7 +76,7 @@
 
 | Steps                                                                                                                                                                                           | DA   | BR   | SGF  | SGPM | DRWS |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
-| [2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration](#21-registrar-creates-allocation-factory-transfer-rule-and-specifies-instrument-configuration) | -    | -    | 📌    | -    | -    |
+| [2.1 Registrar creates Allocation Factory, Transfer Rule and specifies Instrument Configuration](#21-registrar-creates-allocation-factory-transfer-rule-and-specifies-instrument-configuration) | -    | -    | ✅    | -    | -    |
 | [2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders](#22--23--24--25-registrar-offers-credential-to-issuer-and-holders)                                                    | -    | -    | ✅    | 📌    | 📌    |
 
 ### Step 3: Issuing tokens
