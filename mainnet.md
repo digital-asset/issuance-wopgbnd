@@ -249,6 +249,10 @@ SGF creates Instrument Configuration:
 | Property                    | `isHolderOf`                                                                    |
 | Value                       | `SGNOTES`                                                                       |
 
+End point to check view the Instrument Configuration: https://api.utilities.digitalasset.com//api/utilities/v0/contract/instrument-configuration/all
+
+![SGNOTES-US83371K1025-instrument_configuration](images/SGNOTES-US83371K1025-instrument_configuration.png)
+
 See [tutorial](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/2-credentials.html#registrar-specifying-the-requirement-of-the-bond-token) for details.
 
 ### 2.2 / 2.3 / 2.4 / 2.5 Registrar offers credential to Issuer and Holders
