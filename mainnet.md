@@ -3,6 +3,7 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Documentation](#documentation)
+- [Key Dates](#key-dates)
 - [URLs \& Versions](#urls--versions)
 - [PartyIDs](#partyids)
 - [Status](#status)
@@ -32,6 +33,12 @@
 - [Issuing Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/issuance/introduction.html)
 - [Transfering Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/transfer/index.html)
 - [Redeeming Tokenized Instruments](https://docs.digitalasset.com/utilities/testnet/tutorials/redemption/index.html)
+
+## Key Dates
+
+- Trade date : 11/06/2025
+- Issue Date (= Settlement date) : 11/13/2025
+- Maturity Date : [02/16/2026 or 02/12/2026] TBC
 
 ## URLs & Versions
 
