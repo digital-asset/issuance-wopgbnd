@@ -37,9 +37,9 @@
 ## Key Dates
 
 - Trade date : 11/06/2025
-- Issue Date (= Settlement date) : 11/13/2025
+- Issue Date (= Settlement date) : 11/12/2025
 - Press Release :  11/17/2025
-- Maturity Date : [02/16/2026 or 02/12/2026] TBC
+- Maturity Date : 02/12/2026
 
 ## URLs & Versions
 
