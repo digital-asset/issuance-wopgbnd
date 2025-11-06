@@ -4,6 +4,6 @@
 
 Runbook for the [testnet issuance #3](/testnet-3.md).
 
-## Mainnet Issuance - October, 2025
+## Mainnet Issuance - November, 2025
 
 Runbook for the [mainnet issuance](/mainnet.md).
