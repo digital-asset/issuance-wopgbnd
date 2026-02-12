@@ -10,4 +10,4 @@ Runbook for the [mainnet issuance](/mainnet_issuance.md).
 
 ## Mainnet Maturity - February, 2026
 
-Runbook for the [mainnet issuance](/mainnet_maturity.md).
+Runbook for the [mainnet maturity](/mainnet_maturity.md).

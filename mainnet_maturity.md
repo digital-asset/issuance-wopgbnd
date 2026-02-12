@@ -7,6 +7,11 @@
 - [URLs \& Versions](#urls--versions)
 - [PartyIDs](#partyids)
 - [Status](#status)
+  - [1.0 Issuer pays Investor](#10-issuer-pays-investor)
+  - [2.1 Investor returns tokens to Issuer](#21-investor-returns-tokens-to-issuer)
+  - [2.2 Issuer accepts transfer](#22-issuer-accepts-transfer)
+  - [3.1 Issuer request burn](#31-issuer-request-burn)
+  - [3.1 Registrar accepts burn](#31-registrar-accepts-burn)
 
 ## Documentation
 
@@ -38,3 +43,51 @@
 | DRWS       | `Cumberland-DRWS-1::1220f792fc36ceb9f88536e862f0923f1b655cccb9a711ee4d5ede1397ad722bb155`   |
 
 ## Status
+
+### 1.0 Issuer pays Investor
+
+Payment processed off-chain via Paying Agent.
+
+### 2.1 Investor returns tokens to Issuer
+
+| Actors | Module   | Tab      |
+| :----- | :------- | :------- |
+| DRWS   | Registry | Holdings |
+
+Investor clicks on position, and `Transfer`.
+
+| Item           | Value                                                                        |
+| :------------- | :--------------------------------------------------------------------------- |
+| Instrument ID  | `SGNOTES-US83371K1025`                                                       |
+| Send to        | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
+| Amount         | `1000000`                                                                    |
+| Execute before | keep default value                                                           |
+
+### 2.2 Issuer accepts transfer
+
+| Actors | Module   | Tab       |
+| :----- | :------- | :-------- |
+| SGPM   | Registry | Transfers |
+
+Issuer accepts transfer from Registry / Transfers screen.
+
+### 3.1 Issuer request burn
+
+| Actors | Module   | Tab      |
+| :----- | :------- | :------- |
+| SGPM   | Registry | Holdings |
+
+Issuer requests burn from Registry / Holdings screen.
+
+| Item      | Value                           |
+| :-------- | :------------------------------ |
+| Amount    | `1000000`                       |
+| Reference | `Maturity SGNOTES-US83371K1025` |
+
+### 3.1 Registrar accepts burn
+
+| Actors | Module   | Tab   |
+| :----- | :------- | :---- |
+| SGF    | Registry | Burns |
+
+Registrar accepts burn from Registry / Burns screen.
