@@ -56,6 +56,9 @@
 
 Payment processed off-chain via Paying Agent.
 
+- Issuer confirms that paying agent has received the fund.
+- Investor confirms that payment has been received from paying agent.
+
 ### 2.1 Investor returns tokens to Issuer
 
 | Actors | Module   | Tab      |
