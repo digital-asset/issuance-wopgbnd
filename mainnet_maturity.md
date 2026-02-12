@@ -11,7 +11,7 @@
   - [2.1 Investor returns tokens to Issuer](#21-investor-returns-tokens-to-issuer)
   - [2.2 Issuer accepts transfer](#22-issuer-accepts-transfer)
   - [3.1 Issuer request burn](#31-issuer-request-burn)
-  - [3.1 Registrar accepts burn](#31-registrar-accepts-burn)
+  - [3.2 Registrar accepts burn](#32-registrar-accepts-burn)
 
 ## Documentation
 
@@ -43,6 +43,14 @@
 | DRWS       | `Cumberland-DRWS-1::1220f792fc36ceb9f88536e862f0923f1b655cccb9a711ee4d5ede1397ad722bb155`   |
 
 ## Status
+
+| Steps                                                                          | IEU  | BR   | SGF  | SGPM | DRWS |
+| :----------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
+| [1.0 Issuer pays Investor](#10-issuer-pays-investor)                           | -    | -    | -    | 📌    | 📌    |
+| [2.1 Investor returns tokens to Issuer](#21-investor-returns-tokens-to-issuer) | -    | -    | -    | -    | 📌    |
+| [2.2 Issuer accepts transfer](#22-issuer-accepts-transfer)                     | -    | -    | -    | 📌    | -    |
+| [3.1 Issuer request burn](#31-issuer-request-burn)                             | -    | -    | -    | 📌    | -    |
+| [3.2 Registrar accepts burn](#32-registrar-accepts-burn)                       | -    | -    | 📌    | -    | -    |
 
 ### 1.0 Issuer pays Investor
 
@@ -84,7 +92,7 @@ Issuer requests burn from Registry / Holdings screen.
 | Amount    | `1000000`                       |
 | Reference | `Maturity SGNOTES-US83371K1025` |
 
-### 3.1 Registrar accepts burn
+### 3.2 Registrar accepts burn
 
 | Actors | Module   | Tab   |
 | :----- | :------- | :---- |
