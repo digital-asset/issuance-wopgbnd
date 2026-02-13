@@ -49,9 +49,9 @@
 | :----------------------------------------------------------------------------- | :--- | :--- | :--- | :--- | :--- |
 | [1.0 Issuer pays Investor](#10-issuer-pays-investor)                           | -    | -    | -    | ✅    | ✅    |
 | [2.1 Investor returns tokens to Issuer](#21-investor-returns-tokens-to-issuer) | -    | -    | -    | -    | ✅    |
-| [2.2 Issuer accepts transfer](#22-issuer-accepts-transfer)                     | -    | -    | -    | 📌    | -    |
-| [3.1 Issuer request burn](#31-issuer-request-burn)                             | -    | -    | -    | 📌    | -    |
-| [3.2 Registrar accepts burn](#32-registrar-accepts-burn)                       | -    | -    | 📌    | -    | -    |
+| [2.2 Issuer accepts transfer](#22-issuer-accepts-transfer)                     | -    | -    | -    | ✅    | -    |
+| [3.1 Issuer request burn](#31-issuer-request-burn)                             | -    | -    | -    | ✅    | -    |
+| [3.2 Registrar accepts burn](#32-registrar-accepts-burn)                       | -    | -    | ✅    | -    | -    |
 
 ## Steps
 
