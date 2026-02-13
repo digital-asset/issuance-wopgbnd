@@ -43,6 +43,14 @@
 | SG Paris   | `sgpm::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1`                |
 | DRWS       | `Cumberland-DRWS-1::1220f792fc36ceb9f88536e862f0923f1b655cccb9a711ee4d5ede1397ad722bb155`   |
 
+## Instrument
+
+| Item         | Value                                                                           |
+| :----------- | :------------------------------------------------------------------------------ |
+| Network      | `mainnet`                                                                       |
+| InstrumentID | `SGNOTES-US83371K1025`                                                          |
+| Registrar    | `sgforge::12203e601bb3021da99f2105b460ef92f083faf716377991a636c52b11bda56c6cf1` |
+
 ## Status
 
 | Steps                                                                          | IEU  | BR   | SGF  | SGPM | DRWS |
